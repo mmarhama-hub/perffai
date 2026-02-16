@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Perff AI — Team Slide</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --green: #63c29d; --green-light: #8cd4b8; --green-dark: #4a9e7d;
+    --dark: #0b1519; --dark2: #0e1e24; --dark3: #132c35;
+    --text: #b0c8d2; --text-light: #d8e6ec; --white: #fff; --text-dim: #587e8c;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'IBM Plex Sans', sans-serif; background: var(--dark); color: var(--text); -webkit-font-smoothing: antialiased; }
+
+  .slide {
+    min-height: 100vh; display: flex; align-items: center; justify-content: center;
+    padding: 60px 80px; position: relative; overflow: hidden;
+  }
+  .slide::before {
+    content: ''; position: absolute; inset: 0;
+    background: radial-gradient(ellipse at 50% 20%, rgba(99,194,157,0.06) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  .slide-inner { max-width: 1100px; width: 100%; position: relative; z-index: 2; }
+  .slide-num {
+    position: absolute; top: 32px; right: 40px;
+    font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--text-dim);
+    letter-spacing: 2px;
+  }
+  .kicker {
+    font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: var(--green);
+    text-transform: uppercase; letter-spacing: 4px; font-weight: 500; margin-bottom: 16px;
+    text-align: center;
+  }
+  .slide-title {
+    font-size: 48px; font-weight: 700; color: var(--white); line-height: 1.1;
+    letter-spacing: -2px; margin-bottom: 12px; text-align: center;
+  }
+  .slide-title .accent { color: var(--green); }
+  .slide-sub {
+    font-size: 17px; color: var(--text); line-height: 1.7; font-weight: 300;
+    text-align: center; max-width: 600px; margin: 0 auto 48px;
+  }
+
+  .founders-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 24px; margin-bottom: 40px; }
+  .founder-card {
+    background: var(--dark2); border: 1px solid rgba(99,194,157,0.1);
+    border-radius: 20px; padding: 36px 32px; position: relative; overflow: hidden;
+    transition: all 0.3s;
+  }
+  .founder-card:hover {
+    border-color: rgba(99,194,157,0.2);
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(0,0,0,0.3);
+  }
+  .founder-card::before {
+    content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+    background: linear-gradient(90deg, var(--green), var(--green-light), transparent);
+  }
+  .founder-avatar {
+    width: 80px; height: 80px; border-radius: 20px;
+    background: linear-gradient(135deg, var(--green), var(--green-dark));
+    display: flex; align-items: center; justify-content: center;
+    font-size: 32px; font-weight: 700; color: var(--dark);
+    margin-bottom: 20px;
+  }
+  .founder-name { font-size: 24px; font-weight: 700; color: var(--white); margin-bottom: 4px; }
+  .founder-role { font-size: 14px; color: var(--green); font-weight: 500; margin-bottom: 16px; }
+  .founder-bio { font-size: 14px; color: var(--text); line-height: 1.7; margin-bottom: 16px; }
+  .founder-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+  .founder-tag {
+    font-size: 11px; font-weight: 500; padding: 4px 10px;
+    background: rgba(99,194,157,0.06); border: 1px solid rgba(99,194,157,0.1);
+    border-radius: 6px; color: var(--text-dim);
+  }
+
+  .team-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .team-card {
+    background: var(--dark2); border: 1px solid rgba(99,194,157,0.06);
+    border-radius: 14px; padding: 20px 18px; transition: all 0.25s;
+  }
+  .team-card:hover { border-color: rgba(99,194,157,0.15); transform: translateY(-2px); }
+  .team-avatar {
+    width: 48px; height: 48px; border-radius: 12px;
+    background: var(--dark3); border: 1px solid rgba(99,194,157,0.08);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 18px; font-weight: 600; color: var(--green);
+    margin-bottom: 12px;
+  }
+  .team-name { font-size: 15px; font-weight: 600; color: var(--white); margin-bottom: 2px; }
+  .team-role { font-size: 12px; color: var(--green); font-weight: 500; margin-bottom: 4px; }
+  .team-loc { font-size: 11px; color: var(--text-dim); }
+
+  .locations-bar {
+    display: flex; justify-content: center; gap: 32px; margin-top: 40px;
+    padding: 20px; background: rgba(99,194,157,0.03);
+    border: 1px solid rgba(99,194,157,0.06); border-radius: 12px;
+    flex-wrap: wrap;
+  }
+  .location { text-align: center; }
+  .location-city { font-size: 14px; font-weight: 600; color: var(--white); }
+  .location-country { font-size: 11px; color: var(--text-dim); }
+
+  .confidential {
+    position: fixed; bottom: 16px; left: 50%; transform: translateX(-50%);
+    font-size: 10px; color: var(--text-dim); letter-spacing: 1px;
+    font-family: 'IBM Plex Mono', monospace; z-index: 100;
+  }
+
+  @media (max-width: 900px) {
+    .slide { padding: 40px 24px; }
+    .founders-grid { grid-template-columns: 1fr; }
+    .team-grid { grid-template-columns: 1fr 1fr; }
+    .slide-title { font-size: 32px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="slide" id="slide-12">
+  <div class="slide-num">12 / 15</div>
+  <div class="slide-inner">
+    <div class="kicker">The Team</div>
+    <h1 class="slide-title">
+      Built by <span class="accent">MENA Insiders</span><br>
+      Who Know This Market.
+    </h1>
+    <p class="slide-sub">
+      10+ years of MENA performance marketing experience. A previous exit. Deep relationships with the region's biggest brands.
+    </p>
+
+    <!-- Founders -->
+    <div class="founders-grid">
+      <div class="founder-card">
+        <div class="founder-avatar">RH</div>
+        <div class="founder-name">Rima Hani</div>
+        <div class="founder-role">Co-Founder & CEO</div>
+        <div class="founder-bio">
+          10+ years leading performance marketing across MENA. Built and scaled affiliate programs for some of the region's largest brands. Deep relationships with enterprise clients and publisher networks throughout UAE, KSA, Jordan, and Egypt.
+        </div>
+        <div class="founder-tags">
+          <span class="founder-tag">Ex-Equiti Group</span>
+          <span class="founder-tag">Ex-DigiZag</span>
+          <span class="founder-tag">Ex-Digital Advantage</span>
+          <span class="founder-tag">Ex-Relevant Network</span>
+          <span class="founder-tag">MENA Marketing</span>
+          <span class="founder-tag">Abu Dhabi</span>
+        </div>
+      </div>
+      <div class="founder-card">
+        <div class="founder-avatar">FA</div>
+        <div class="founder-name">Fahad Alsaedi</div>
+        <div class="founder-role">Co-Founder & CTO</div>
+        <div class="founder-bio">
+          Serial technical founder with a previous exit. Former engineering lead at Nana (nana.sa), one of Saudi Arabia's leading delivery platforms. MBIT graduate with deep expertise in scalable platform architecture and AI/ML systems.
+        </div>
+        <div class="founder-tags">
+          <span class="founder-tag">1× Exit</span>
+          <span class="founder-tag">Ex-Nana (nana.sa)</span>
+          <span class="founder-tag">MBIT</span>
+          <span class="founder-tag">Full-Stack</span>
+          <span class="founder-tag">AI/ML</span>
+          <span class="founder-tag">Saudi Arabia</span>
+        </div>
+      </div>
+      <div class="founder-card">
+        <div class="founder-avatar">SC</div>
+        <div class="founder-name">Sadah Chanti</div>
+        <div class="founder-role">Co-Founder & COO</div>
+        <div class="founder-bio">
+          Strategically driven, bilingual Regional Head of Communications with over 17 years of experience leading high-performing teams of account managers, content creators, editors, videographers, and video producers.
+        </div>
+        <div class="founder-tags">
+          <span class="founder-tag">17+ Years Leadership</span>
+          <span class="founder-tag">Communications</span>
+          <span class="founder-tag">Bilingual</span>
+          <span class="founder-tag">Riyadh, KSA</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Core Team -->
+    <div style="font-size: 11px; text-transform: uppercase; letter-spacing: 3px; color: var(--text-dim); margin-bottom: 16px; font-family: 'IBM Plex Mono', monospace; text-align: center;">Core Team</div>
+    <div class="team-grid">
+      <div class="team-card">
+        <div class="team-avatar">AK</div>
+        <div class="team-name">Amer Kilani</div>
+        <div class="team-role">General Manager</div>
+        <div class="team-loc">📍 Amman, Jordan</div>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">AH</div>
+        <div class="team-name">Abeer Hani</div>
+        <div class="team-role">Head of Communications</div>
+        <div class="team-loc">📍 Riyadh, KSA</div>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">FH</div>
+        <div class="team-name">Fairouz Hamdan</div>
+        <div class="team-role">Social Media Manager</div>
+        <div class="team-loc">📍 Amman, Jordan</div>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">SB</div>
+        <div class="team-name">Samer Baibers</div>
+        <div class="team-role">Sr. Affiliate Manager</div>
+        <div class="team-loc">📍 Amman, Jordan</div>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">MS</div>
+        <div class="team-name">Mohammed Alshaikh</div>
+        <div class="team-role">Sr. Affiliate Manager</div>
+        <div class="team-loc">📍 Gaza, Palestine</div>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">LA</div>
+        <div class="team-name">Lilian Alfar</div>
+        <div class="team-role">Sr. Affiliate Account Executive</div>
+        <div class="team-loc">📍 Amman, Jordan</div>
+      </div>
+    </div>
+
+    <!-- Locations -->
+    <div class="locations-bar">
+      <div class="location">
+        <div class="location-city">�🇸 USA</div>
+        <div class="location-country">HQ</div>
+      </div>
+      <div class="location">
+        <div class="location-city">🇦🇪 Abu Dhabi</div>
+        <div class="location-country">Office — UAE</div>
+      </div>
+      <div class="location">
+        <div class="location-city">🇯🇴 Amman</div>
+        <div class="location-country">Operations — Jordan</div>
+      </div>
+      <div class="location">
+        <div class="location-city">🇸🇦 Riyadh</div>
+        <div class="location-country">Expanding — KSA</div>
+      </div>
+      <div class="location">
+        <div class="location-city">🇵🇸 Gaza</div>
+        <div class="location-country">Operations — Palestine</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="confidential">CONFIDENTIAL — Perff AI © 2026</div>
+
+</body>
+</html>

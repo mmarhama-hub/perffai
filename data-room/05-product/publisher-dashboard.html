@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Perff AI — Publisher Dashboard (CouponMENA Demo)</title>
+<style>
+  :root {
+    --bg: #0f1117;
+    --card: #1a1d27;
+    --border: #2a2d3a;
+    --accent: #22d3ee;
+    --accent2: #6366f1;
+    --green: #22c55e;
+    --red: #ef4444;
+    --orange: #f59e0b;
+    --text: #e2e8f0;
+    --muted: #94a3b8;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; }
+
+  /* SIDEBAR */
+  .sidebar {
+    position: fixed; left: 0; top: 0; bottom: 0; width: 240px;
+    background: var(--card); border-right: 1px solid var(--border);
+    padding: 24px 16px; display: flex; flex-direction: column; gap: 4px;
+  }
+  .sidebar .logo { font-size: 20px; font-weight: 800; color: var(--accent); margin-bottom: 32px; letter-spacing: -0.5px; }
+  .sidebar .logo span { color: var(--accent2); }
+  .sidebar a {
+    display: flex; align-items: center; gap: 10px; padding: 10px 14px;
+    border-radius: 8px; color: var(--muted); text-decoration: none; font-size: 14px;
+    transition: all 0.15s;
+  }
+  .sidebar a:hover, .sidebar a.active { background: rgba(34,211,238,0.12); color: var(--text); }
+  .sidebar a.active { color: var(--accent); font-weight: 600; }
+  .sidebar .icon { width: 18px; text-align: center; }
+  .sidebar .user-info {
+    margin-top: auto; padding: 14px; background: rgba(34,211,238,0.06);
+    border-radius: 10px; border: 1px solid var(--border);
+  }
+  .sidebar .user-info .name { font-weight: 600; font-size: 14px; }
+  .sidebar .user-info .tier { font-size: 11px; color: var(--accent); margin-top: 2px; }
+
+  /* MAIN */
+  .main { margin-left: 240px; padding: 32px; }
+  .topbar {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-bottom: 28px;
+  }
+  .topbar h1 { font-size: 24px; font-weight: 700; }
+  .topbar .date-range {
+    padding: 8px 16px; border-radius: 8px; background: var(--card);
+    border: 1px solid var(--border); color: var(--text); font-size: 13px;
+  }
+
+  /* KPI CARDS */
+  .kpi-grid {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;
+    margin-bottom: 28px;
+  }
+  .kpi-card {
+    background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+    padding: 20px;
+  }
+  .kpi-card .label { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; }
+  .kpi-card .value { font-size: 28px; font-weight: 700; line-height: 1.2; }
+  .kpi-card .change { font-size: 12px; margin-top: 6px; }
+  .kpi-card .change.up { color: var(--green); }
+
+  /* SECTION */
+  .section { margin-bottom: 28px; }
+  .section-title { font-size: 16px; font-weight: 600; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
+
+  /* EARNINGS CHART */
+  .chart-card {
+    background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+    padding: 24px;
+  }
+  .chart-card h3 { font-size: 14px; font-weight: 600; margin-bottom: 16px; }
+  .earnings-bars { display: flex; align-items: flex-end; gap: 6px; height: 140px; }
+  .earnings-bar {
+    flex: 1; border-radius: 4px 4px 0 0; background: var(--accent);
+    transition: height 0.3s; cursor: pointer; position: relative;
+  }
+  .earnings-bar:hover { background: var(--accent2); }
+  .earnings-bar:hover::after {
+    content: attr(data-val); position: absolute; top: -20px; left: 50%;
+    transform: translateX(-50%); font-size: 10px; color: var(--text);
+    white-space: nowrap;
+  }
+  .bar-labels { display: flex; gap: 6px; margin-top: 6px; }
+  .bar-labels span { flex: 1; text-align: center; font-size: 10px; color: var(--muted); }
+
+  /* GRID */
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+
+  /* CAMPAIGN TABLE */
+  .table-card {
+    background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+    padding: 24px;
+  }
+  table { width: 100%; border-collapse: collapse; }
+  th { text-align: left; font-size: 11px; color: var(--muted); text-transform: uppercase; padding: 8px 12px; border-bottom: 1px solid var(--border); }
+  td { padding: 12px; font-size: 13px; border-bottom: 1px solid var(--border); }
+  tr:hover td { background: rgba(34,211,238,0.04); }
+  .badge {
+    padding: 3px 10px; border-radius: 20px; font-size: 11px; font-weight: 600;
+  }
+  .badge.active { background: rgba(34,197,94,0.15); color: var(--green); }
+  .badge.pending { background: rgba(245,158,11,0.15); color: var(--orange); }
+  .badge.new { background: rgba(99,102,241,0.15); color: var(--accent2); }
+  .commission-type { font-size: 11px; color: var(--muted); }
+
+  /* AI TIPS */
+  .ai-tip {
+    padding: 14px; background: rgba(34,211,238,0.06); border-radius: 8px;
+    border-left: 3px solid var(--accent); font-size: 13px; margin-bottom: 10px;
+  }
+  .ai-tip strong { color: var(--accent); }
+
+  /* PAYMENT SECTION */
+  .payment-card {
+    background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+    padding: 24px;
+  }
+  .payment-row {
+    display: flex; justify-content: space-between; padding: 10px 0;
+    border-bottom: 1px solid var(--border); font-size: 13px;
+  }
+  .payment-row:last-child { border: none; }
+  .payment-amount { font-weight: 600; }
+  .payment-status { font-size: 11px; padding: 3px 10px; border-radius: 20px; }
+  .payment-status.paid { background: rgba(34,197,94,0.15); color: var(--green); }
+  .payment-status.processing { background: rgba(245,158,11,0.15); color: var(--orange); }
+
+  /* LINK GENERATOR */
+  .link-gen {
+    background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+    padding: 24px;
+  }
+  .link-gen input {
+    width: 100%; padding: 10px 14px; border-radius: 8px;
+    background: var(--bg); border: 1px solid var(--border); color: var(--text);
+    font-size: 13px; margin-bottom: 10px;
+  }
+  .link-gen .generated {
+    padding: 10px 14px; background: var(--bg); border-radius: 8px;
+    font-size: 12px; font-family: monospace; color: var(--accent);
+    word-break: break-all;
+  }
+  .btn {
+    padding: 8px 20px; border-radius: 8px; border: none;
+    font-size: 13px; font-weight: 600; cursor: pointer; transition: all 0.15s;
+  }
+  .btn-primary { background: var(--accent); color: #000; }
+  .btn-primary:hover { background: #06b6d4; }
+
+  .demo-banner {
+    text-align: center; padding: 16px; background: rgba(34,211,238,0.06);
+    border: 1px dashed var(--accent); border-radius: 8px; margin-top: 16px;
+    font-size: 13px; color: var(--muted);
+  }
+  .demo-banner strong { color: var(--accent); }
+
+  @media (max-width: 768px) {
+    .sidebar { display: none; }
+    .main { margin-left: 0; padding: 16px; }
+    .kpi-grid { grid-template-columns: 1fr 1fr; }
+    .grid-2 { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<nav class="sidebar">
+  <div class="logo">perff<span>.ai</span></div>
+  <a href="#" class="active"><span class="icon">📊</span> Dashboard</a>
+  <a href="#"><span class="icon">📢</span> Campaigns</a>
+  <a href="#"><span class="icon">🔗</span> My Links</a>
+  <a href="#"><span class="icon">💰</span> Earnings</a>
+  <a href="#"><span class="icon">📈</span> Analytics</a>
+  <a href="#"><span class="icon">💳</span> Payments</a>
+  <a href="#"><span class="icon">🤖</span> AI Tips</a>
+  <a href="#"><span class="icon">⚙️</span> Settings</a>
+  <div class="user-info">
+    <div class="name">CouponMENA</div>
+    <div class="tier">⭐ VIP Publisher</div>
+    <div style="font-size:12px;color:var(--muted);margin-top:4px;">Member since 2023</div>
+  </div>
+</nav>
+
+<!-- MAIN -->
+<div class="main">
+
+  <div class="topbar">
+    <div>
+      <h1>Publisher Dashboard</h1>
+      <p style="color:var(--muted);font-size:13px;margin-top:4px;">Welcome back, CouponMENA 👋</p>
+    </div>
+    <div class="date-range">📅 Jan 1 – Jun 30, 2025</div>
+  </div>
+
+  <!-- KPIs -->
+  <div class="kpi-grid">
+    <div class="kpi-card">
+      <div class="label">Total Earnings</div>
+      <div class="value" style="color:var(--green);">$48,720</div>
+      <div class="change up">↑ 42% vs. H2 2024</div>
+    </div>
+    <div class="kpi-card">
+      <div class="label">Total Clicks</div>
+      <div class="value">187K</div>
+      <div class="change up">↑ 28% vs. H2 2024</div>
+    </div>
+    <div class="kpi-card">
+      <div class="label">Conversions</div>
+      <div class="value">15,308</div>
+      <div class="change up">↑ 35% vs. H2 2024</div>
+    </div>
+    <div class="kpi-card">
+      <div class="label">Avg. CVR</div>
+      <div class="value">8.2%</div>
+      <div class="change up">↑ 0.9pp vs. avg</div>
+    </div>
+  </div>
+
+  <!-- EARNINGS CHART & AI TIPS -->
+  <div class="grid-2 section">
+    <div class="chart-card">
+      <h3>Monthly Earnings (2025)</h3>
+      <div class="earnings-bars">
+        <div class="earnings-bar" style="height:62%" data-val="$6,840"></div>
+        <div class="earnings-bar" style="height:58%" data-val="$6,380"></div>
+        <div class="earnings-bar" style="height:72%" data-val="$7,920"></div>
+        <div class="earnings-bar" style="height:85%" data-val="$9,350"></div>
+        <div class="earnings-bar" style="height:78%" data-val="$8,580"></div>
+        <div class="earnings-bar" style="height:90%" data-val="$9,650"></div>
+      </div>
+      <div class="bar-labels">
+        <span>Jan</span><span>Feb</span><span>Mar</span><span>Apr</span><span>May</span><span>Jun</span>
+      </div>
+    </div>
+
+    <div class="chart-card" style="border-left: 3px solid var(--accent);">
+      <h3>🤖 AI Optimization Tips</h3>
+      <div style="display:flex;flex-direction:column;gap:10px;margin-top:4px;">
+        <div class="ai-tip">
+          <strong>High Match:</strong> New campaign "Trendyol Summer" has 94% audience match with your traffic. Apply now for 12% CPS. <a href="#" style="color:var(--accent);">Apply →</a>
+        </div>
+        <div class="ai-tip">
+          <strong>Timing:</strong> Your noon traffic converts 45% better between 7–10 PM GST. Focus promotions during this window for higher EPC.
+        </div>
+        <div class="ai-tip">
+          <strong>Content:</strong> Publishers using deep links to category pages see 2.3× higher CVR vs homepages. Switch 3 of your links for a projected +$820/month.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ACTIVE CAMPAIGNS -->
+  <div class="table-card section">
+    <h3>My Active Campaigns</h3>
+    <table>
+      <tr>
+        <th>Brand</th>
+        <th>Campaign</th>
+        <th>Commission</th>
+        <th>My Clicks</th>
+        <th>My Conversions</th>
+        <th>My CVR</th>
+        <th>My Earnings</th>
+        <th>Status</th>
+      </tr>
+      <tr>
+        <td><strong>noon</strong></td>
+        <td>Summer Sale 2025</td>
+        <td>8% CPS <span class="commission-type">+ ₹2 bonus/conv</span></td>
+        <td>45,230</td>
+        <td>4,102</td>
+        <td>9.1%</td>
+        <td>$14,360</td>
+        <td><span class="badge active">Active</span></td>
+      </tr>
+      <tr>
+        <td><strong>Talabat</strong></td>
+        <td>Ramadan Meals</td>
+        <td>$3.50 CPA</td>
+        <td>32,100</td>
+        <td>3,210</td>
+        <td>10.0%</td>
+        <td>$11,235</td>
+        <td><span class="badge active">Active</span></td>
+      </tr>
+      <tr>
+        <td><strong>DAMAC</strong></td>
+        <td>Property Leads UAE</td>
+        <td>$45 CPL</td>
+        <td>8,400</td>
+        <td>420</td>
+        <td>5.0%</td>
+        <td>$9,450</td>
+        <td><span class="badge active">Active</span></td>
+      </tr>
+      <tr>
+        <td><strong>Trendyol</strong></td>
+        <td>GCC Launch</td>
+        <td>10% CPS</td>
+        <td>22,800</td>
+        <td>2,280</td>
+        <td>10.0%</td>
+        <td>$6,840</td>
+        <td><span class="badge active">Active</span></td>
+      </tr>
+      <tr>
+        <td><strong>HYCM</strong></td>
+        <td>Trading Signup</td>
+        <td>$85 CPA</td>
+        <td>5,200</td>
+        <td>78</td>
+        <td>1.5%</td>
+        <td>$6,630</td>
+        <td><span class="badge active">Active</span></td>
+      </tr>
+      <tr>
+        <td><strong>OSN+</strong></td>
+        <td>Stream Signup</td>
+        <td>$8 CPA</td>
+        <td>6,400</td>
+        <td>512</td>
+        <td>8.0%</td>
+        <td>$4,096</td>
+        <td><span class="badge active">Active</span></td>
+      </tr>
+      <tr>
+        <td><strong>eyewa</strong></td>
+        <td>Summer Eyewear</td>
+        <td>7% CPS</td>
+        <td>4,200</td>
+        <td>336</td>
+        <td>8.0%</td>
+        <td>$1,848</td>
+        <td><span class="badge active">Active</span></td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- RECOMMENDED CAMPAIGNS & LINK GENERATOR -->
+  <div class="grid-2 section">
+    <div class="table-card">
+      <h3>🆕 Recommended Campaigns (AI-Matched)</h3>
+      <table>
+        <tr><th>Brand</th><th>Campaign</th><th>Commission</th><th>AI Match</th><th></th></tr>
+        <tr>
+          <td><strong>Temu</strong></td>
+          <td>MENA Launch</td>
+          <td>15% CPS</td>
+          <td><span style="color:var(--green);font-weight:700;">96%</span></td>
+          <td><button class="btn btn-primary" style="font-size:11px;padding:5px 14px;">Apply</button></td>
+        </tr>
+        <tr>
+          <td><strong>6thStreet</strong></td>
+          <td>Back to School</td>
+          <td>9% CPS</td>
+          <td><span style="color:var(--green);font-weight:700;">91%</span></td>
+          <td><button class="btn btn-primary" style="font-size:11px;padding:5px 14px;">Apply</button></td>
+        </tr>
+        <tr>
+          <td><strong>DailyMealz</strong></td>
+          <td>Subscription Drive</td>
+          <td>$12 CPA</td>
+          <td><span style="color:var(--accent);font-weight:700;">87%</span></td>
+          <td><button class="btn btn-primary" style="font-size:11px;padding:5px 14px;">Apply</button></td>
+        </tr>
+        <tr>
+          <td><strong>Nice One</strong></td>
+          <td>Beauty Month</td>
+          <td>8% CPS</td>
+          <td><span style="color:var(--accent);font-weight:700;">84%</span></td>
+          <td><button class="btn btn-primary" style="font-size:11px;padding:5px 14px;">Apply</button></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="link-gen">
+      <h3 style="margin-bottom:16px;">🔗 Quick Link Generator</h3>
+      <label style="font-size:12px;color:var(--muted);display:block;margin-bottom:4px;">Campaign</label>
+      <input type="text" value="noon — Summer Sale 2025" readonly />
+      <label style="font-size:12px;color:var(--muted);display:block;margin-bottom:4px;">Destination URL</label>
+      <input type="text" placeholder="https://www.noon.com/product/..." />
+      <label style="font-size:12px;color:var(--muted);display:block;margin-bottom:4px;">Sub ID (optional)</label>
+      <input type="text" placeholder="homepage_banner" />
+      <div style="display:flex;gap:8px;margin:12px 0;">
+        <button class="btn btn-primary">Generate Link</button>
+        <button class="btn" style="background:var(--bg);border:1px solid var(--border);color:var(--text);">Generate QR</button>
+      </div>
+      <label style="font-size:12px;color:var(--muted);display:block;margin-bottom:4px;">Generated Tracking Link</label>
+      <div class="generated">https://track.perff.net/c/87291/noon-summer25?sub=homepage_banner</div>
+    </div>
+  </div>
+
+  <!-- PAYMENTS -->
+  <div class="grid-2 section">
+    <div class="payment-card">
+      <h3 style="margin-bottom:16px;">💳 Recent Payments</h3>
+      <div class="payment-row">
+        <div>
+          <div style="font-weight:600;">June 2025</div>
+          <div style="font-size:11px;color:var(--muted);">Via Bank Transfer</div>
+        </div>
+        <div style="text-align:right;">
+          <div class="payment-amount" style="color:var(--green);">$9,650</div>
+          <span class="payment-status paid">Paid</span>
+        </div>
+      </div>
+      <div class="payment-row">
+        <div>
+          <div style="font-weight:600;">May 2025</div>
+          <div style="font-size:11px;color:var(--muted);">Via Bank Transfer</div>
+        </div>
+        <div style="text-align:right;">
+          <div class="payment-amount" style="color:var(--green);">$8,580</div>
+          <span class="payment-status paid">Paid</span>
+        </div>
+      </div>
+      <div class="payment-row">
+        <div>
+          <div style="font-weight:600;">April 2025</div>
+          <div style="font-size:11px;color:var(--muted);">Via Bank Transfer</div>
+        </div>
+        <div style="text-align:right;">
+          <div class="payment-amount" style="color:var(--green);">$9,350</div>
+          <span class="payment-status paid">Paid</span>
+        </div>
+      </div>
+      <div class="payment-row">
+        <div>
+          <div style="font-weight:600;">July 2025</div>
+          <div style="font-size:11px;color:var(--muted);">Processing...</div>
+        </div>
+        <div style="text-align:right;">
+          <div class="payment-amount">$10,200</div>
+          <span class="payment-status processing">Processing</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="chart-card">
+      <h3>📊 Earnings by Brand</h3>
+      <div style="display:flex;flex-direction:column;gap:10px;margin-top:8px;">
+        <div>
+          <div style="display:flex;justify-content:space-between;font-size:13px;margin-bottom:4px;">
+            <span>noon</span><span style="font-weight:600;">$14,360 (29%)</span>
+          </div>
+          <div style="height:8px;background:var(--bg);border-radius:4px;overflow:hidden;">
+            <div style="width:29%;height:100%;background:var(--accent);border-radius:4px;"></div>
+          </div>
+        </div>
+        <div>
+          <div style="display:flex;justify-content:space-between;font-size:13px;margin-bottom:4px;">
+            <span>Talabat</span><span style="font-weight:600;">$11,235 (23%)</span>
+          </div>
+          <div style="height:8px;background:var(--bg);border-radius:4px;overflow:hidden;">
+            <div style="width:23%;height:100%;background:var(--accent2);border-radius:4px;"></div>
+          </div>
+        </div>
+        <div>
+          <div style="display:flex;justify-content:space-between;font-size:13px;margin-bottom:4px;">
+            <span>DAMAC</span><span style="font-weight:600;">$9,450 (19%)</span>
+          </div>
+          <div style="height:8px;background:var(--bg);border-radius:4px;overflow:hidden;">
+            <div style="width:19%;height:100%;background:var(--green);border-radius:4px;"></div>
+          </div>
+        </div>
+        <div>
+          <div style="display:flex;justify-content:space-between;font-size:13px;margin-bottom:4px;">
+            <span>Trendyol</span><span style="font-weight:600;">$6,840 (14%)</span>
+          </div>
+          <div style="height:8px;background:var(--bg);border-radius:4px;overflow:hidden;">
+            <div style="width:14%;height:100%;background:var(--orange);border-radius:4px;"></div>
+          </div>
+        </div>
+        <div>
+          <div style="display:flex;justify-content:space-between;font-size:13px;margin-bottom:4px;">
+            <span>Others</span><span style="font-weight:600;">$6,835 (14%)</span>
+          </div>
+          <div style="height:8px;background:var(--bg);border-radius:4px;overflow:hidden;">
+            <div style="width:14%;height:100%;background:var(--muted);border-radius:4px;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="demo-banner">
+    <strong>DEMO DASHBOARD</strong> — This is a representative simulation of the Perff AI publisher dashboard for investor review purposes. Actual data and metrics are illustrative.
+  </div>
+
+</div>
+</body>
+</html>
