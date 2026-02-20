@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Perff AI — Organization Chart</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --green: #63c29d; --green-light: #8cd4b8; --green-dark: #4a9e7d;
+    --dark: #0b1519; --dark2: #0e1e24; --dark3: #132c35; --dark4: #1a3845;
+    --text: #b0c8d2; --text-light: #d8e6ec; --white: #fff; --text-dim: #587e8c;
+    --orange: #f0a54b; --blue: #4ba3f0; --red: #e8515e;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    background: var(--dark);
+    color: var(--text);
+    -webkit-font-smoothing: antialiased;
+    padding: 40px 20px;
+    min-height: 100vh;
+  }
+
+  .page-header {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+  .kicker {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--green);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 500;
+    margin-bottom: 12px;
+  }
+  .page-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 8px;
+  }
+  .page-title .accent { color: var(--green); }
+  .page-sub {
+    font-size: 15px;
+    color: var(--text-dim);
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  .team-count {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 4px 14px;
+    background: rgba(99,194,157,0.08);
+    border: 1px solid rgba(99,194,157,0.15);
+    border-radius: 20px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--green);
+    letter-spacing: 1px;
+  }
+
+  /* ── ORG CHART LAYOUT ── */
+  .org-chart {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+
+  /* ── CONNECTOR LINES ── */
+  .connector-v {
+    width: 2px;
+    height: 28px;
+    background: linear-gradient(180deg, rgba(99,194,157,0.4), rgba(99,194,157,0.15));
+  }
+  .connector-h-group {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+  }
+  .connector-h-group::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 2px;
+    background: rgba(99,194,157,0.2);
+  }
+  .connector-h-group.three::before {
+    left: calc(50% - 220px);
+    right: calc(50% - 220px);
+  }
+  .connector-h-group.four::before {
+    left: calc(50% - 330px);
+    right: calc(50% - 330px);
+  }
+  .connector-branch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .connector-branch .connector-v {
+    height: 20px;
+  }
+
+  /* ── PERSON CARD ── */
+  .person {
+    position: relative;
+    border-radius: 16px;
+    padding: 20px 20px 16px;
+    text-align: center;
+    min-width: 180px;
+    max-width: 220px;
+    transition: all 0.25s;
+  }
+  .person:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+  }
+
+  /* Card styles by level */
+  .person.ceo {
+    background: linear-gradient(135deg, var(--green-dark), var(--green));
+    border: 2px solid var(--green-light);
+    min-width: 240px;
+    max-width: 260px;
+    padding: 24px 24px 20px;
+  }
+  .person.ceo .person-name { color: var(--dark); font-size: 20px; }
+  .person.ceo .person-role { color: var(--dark); opacity: 0.8; }
+  .person.ceo .person-location { color: var(--dark); opacity: 0.6; }
+  .person.ceo .avatar { background: var(--dark); color: var(--green); }
+
+  .person.cofounder {
+    background: var(--dark2);
+    border: 1px solid rgba(99,194,157,0.2);
+  }
+  .person.cofounder::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--green), var(--green-light), transparent);
+    border-radius: 16px 16px 0 0;
+  }
+
+  .person.manager {
+    background: var(--dark2);
+    border: 1px solid rgba(99,194,157,0.1);
+  }
+  .person.manager::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, var(--blue), transparent);
+    border-radius: 16px 16px 0 0;
+  }
+
+  .person.team-member {
+    background: var(--dark3);
+    border: 1px solid rgba(99,194,157,0.06);
+    min-width: 160px;
+    padding: 16px 14px 12px;
+  }
+
+  .avatar {
+    width: 52px;
+    height: 52px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 10px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .person.cofounder .avatar,
+  .person.manager .avatar {
+    background: linear-gradient(135deg, var(--green), var(--green-dark));
+    color: var(--dark);
+  }
+  .person.team-member .avatar {
+    background: var(--dark4);
+    border: 1px solid rgba(99,194,157,0.1);
+    color: var(--green);
+    width: 44px;
+    height: 44px;
+    font-size: 15px;
+  }
+
+  .person-name {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--white);
+    margin-bottom: 2px;
+  }
+  .person-role {
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--green);
+    margin-bottom: 6px;
+  }
+  .person-location {
+    font-size: 10px;
+    color: var(--text-dim);
+  }
+  .person-tag {
+    display: inline-block;
+    font-size: 8px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-top: 6px;
+    font-family: 'IBM Plex Mono', monospace;
+    letter-spacing: 0.5px;
+  }
+  .person-tag.founder {
+    background: rgba(99,194,157,0.1);
+    color: var(--green);
+    border: 1px solid rgba(99,194,157,0.15);
+  }
+  .person-tag.exit {
+    background: rgba(240,165,75,0.1);
+    color: var(--orange);
+    border: 1px solid rgba(240,165,75,0.15);
+  }
+
+  /* ── ROW LAYOUTS ── */
+  .row {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    flex-wrap: wrap;
+  }
+  .row.cofounders { gap: 40px; }
+
+  /* ── DEPARTMENT GROUPS ── */
+  .dept-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+  .dept-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--text-dim);
+    margin-bottom: 12px;
+    margin-top: 8px;
+  }
+  .dept-members {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* ── POST-INVESTMENT SECTION ── */
+  .future-section {
+    margin-top: 48px;
+    padding: 32px;
+    background: var(--dark2);
+    border: 1px dashed rgba(99,194,157,0.15);
+    border-radius: 20px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .future-title {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--orange);
+    margin-bottom: 4px;
+  }
+  .future-sub {
+    text-align: center;
+    font-size: 11px;
+    color: var(--text-dim);
+    margin-bottom: 24px;
+  }
+  .future-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+  .future-dept {
+    padding: 16px;
+    background: var(--dark3);
+    border-radius: 12px;
+    border: 1px solid rgba(99,194,157,0.06);
+  }
+  .future-dept-name {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--white);
+    margin-bottom: 4px;
+  }
+  .future-dept-count {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--green);
+    margin-bottom: 4px;
+  }
+  .future-dept-detail {
+    font-size: 10px;
+    color: var(--text-dim);
+    line-height: 1.5;
+  }
+  .future-role {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 0;
+  }
+  .future-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .future-dot.critical { background: var(--green); }
+  .future-dot.high { background: var(--blue); }
+  .future-dot.medium { background: var(--text-dim); }
+
+  /* ── FOOTER ── */
+  .confidential {
+    text-align: center;
+    margin-top: 48px;
+    font-size: 10px;
+    color: var(--text-dim);
+    letter-spacing: 1px;
+    font-family: 'IBM Plex Mono', monospace;
+  }
+
+  @media (max-width: 900px) {
+    .row { flex-direction: column; align-items: center; }
+    .row.cofounders { gap: 20px; }
+    .future-grid { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 600px) {
+    .future-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ── PAGE HEADER ── -->
+<div class="page-header">
+  <div class="kicker">Organization Structure</div>
+  <h1 class="page-title">Perff AI — <span class="accent">Team & Org Chart</span></h1>
+  <p class="page-sub">
+    12-person team across 5 MENA countries. Lean, bilingual, domain-expert team generating $150K revenue per employee.
+  </p>
+  <div class="team-count">12 FULL-TIME · 5 COUNTRIES · $150K REV/EMPLOYEE</div>
+</div>
+
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     CURRENT ORG CHART
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<div class="org-chart">
+
+  <!-- CEO -->
+  <div class="person ceo">
+    <div class="avatar">RH</div>
+    <div class="person-name">Rima Hani</div>
+    <div class="person-role">Co-Founder & CEO</div>
+    <div class="person-location">📍 Abu Dhabi, UAE</div>
+    <div class="person-tag founder">FOUNDER · 87.4% EQUITY</div>
+  </div>
+
+  <div class="connector-v"></div>
+
+  <!-- CTO & COO -->
+  <div class="connector-h-group three">
+    <div class="connector-branch" style="margin: 0 60px;">
+      <div class="connector-v"></div>
+      <div class="person cofounder">
+        <div class="avatar">FA</div>
+        <div class="person-name">Fahad Alsaedi</div>
+        <div class="person-role">Co-Founder & CTO</div>
+        <div class="person-location">📍 Saudi Arabia</div>
+        <div class="person-tag founder">FOUNDER · 5.7%</div>
+        <div class="person-tag exit">1× EXIT · EX-NANA</div>
+      </div>
+    </div>
+    <div class="connector-branch" style="margin: 0 60px;">
+      <div class="connector-v"></div>
+      <div class="person cofounder">
+        <div class="avatar">SC</div>
+        <div class="person-name">Sadah Chanti</div>
+        <div class="person-role">Co-Founder & COO</div>
+        <div class="person-location">📍 Riyadh, KSA</div>
+        <div class="person-tag founder">FOUNDER · 1.9%</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="connector-v" style="height: 36px;"></div>
+
+  <!-- ── DEPARTMENT LEVEL ── -->
+  <div class="row" style="gap: 24px; align-items: flex-start;">
+
+    <!-- Technology -->
+    <div class="dept-group">
+      <div class="dept-label">Technology</div>
+      <div style="font-size: 9px; color: var(--text-dim); margin-bottom: 8px;">Reports to: CTO</div>
+      <div class="dept-members">
+        <div class="person team-member">
+          <div class="avatar">HA</div>
+          <div class="person-name">Hamdy Abd-Elwahed</div>
+          <div class="person-role">Product Designer</div>
+          <div class="person-location">📍 Cairo, Egypt</div>
+        </div>
+        <div class="person team-member">
+          <div class="avatar">AG</div>
+          <div class="person-name">Adel Alghamdi</div>
+          <div class="person-role">Cloud Consulting</div>
+          <div class="person-location">📍 Jeddah, KSA</div>
+        </div>
+        <div class="person team-member">
+          <div class="avatar">OG</div>
+          <div class="person-name">Omima Khaled Ghanem</div>
+          <div class="person-role">Software Engineer</div>
+          <div class="person-location">📍 Alexandria, Egypt</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Operations & Finance -->
+    <div class="dept-group">
+      <div class="dept-label">Operations & Finance</div>
+      <div style="font-size: 9px; color: var(--text-dim); margin-bottom: 8px;">Reports to: CEO</div>
+      <div class="dept-members">
+        <div class="person manager">
+          <div class="avatar">AK</div>
+          <div class="person-name">Amer Kilani</div>
+          <div class="person-role">General Manager</div>
+          <div class="person-location">📍 Amman, Jordan</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Marketing & Communications -->
+    <div class="dept-group">
+      <div class="dept-label">Marketing & Communications</div>
+      <div style="font-size: 9px; color: var(--text-dim); margin-bottom: 8px;">Reports to: COO</div>
+      <div class="dept-members">
+        <div class="person manager">
+          <div class="avatar">AH</div>
+          <div class="person-name">Abeer Hani</div>
+          <div class="person-role">Head of Communications</div>
+          <div class="person-location">📍 Riyadh, KSA</div>
+        </div>
+        <div class="person team-member">
+          <div class="avatar">FH</div>
+          <div class="person-name">Fairouz Hamdan</div>
+          <div class="person-role">Social Media Manager</div>
+          <div class="person-location">📍 Amman, Jordan</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Affiliate Management -->
+    <div class="dept-group">
+      <div class="dept-label">Affiliate Management</div>
+      <div style="font-size: 9px; color: var(--text-dim); margin-bottom: 8px;">Reports to: CEO</div>
+      <div class="dept-members">
+        <div class="person team-member">
+          <div class="avatar">SB</div>
+          <div class="person-name">Samer Baibers</div>
+          <div class="person-role">Sr. Affiliate Manager</div>
+          <div class="person-location">📍 Amman, Jordan</div>
+        </div>
+        <div class="person team-member">
+          <div class="avatar">MA</div>
+          <div class="person-name">Mohammed Alshaikh</div>
+          <div class="person-role">Sr. Affiliate Manager</div>
+          <div class="person-location">📍 Gaza, Palestine</div>
+        </div>
+        <div class="person team-member">
+          <div class="avatar">LA</div>
+          <div class="person-name">Lilian Alfar</div>
+          <div class="person-role">Sr. Affiliate Account Exec</div>
+          <div class="person-location">📍 Amman, Jordan</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     POST-INVESTMENT ORG (Planned)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<div class="future-section">
+  <div class="future-title">🚀 Post-Investment Scaling Plan</div>
+  <div class="future-sub">12 → 25 by end 2026 · 25 → 40 by end 2027 · Engineering is primary investment</div>
+
+  <div class="future-grid">
+
+    <div class="future-dept">
+      <div class="future-dept-name">🧠 Engineering & Product</div>
+      <div class="future-dept-count">5 → 10</div>
+      <div class="future-dept-detail">
+        <div class="future-role"><div class="future-dot critical"></div> 2× Sr. Full-Stack Engineers</div>
+        <div class="future-role"><div class="future-dot critical"></div> 1× AI/ML Engineer</div>
+        <div class="future-role"><div class="future-dot critical"></div> 1× Backend Engineer</div>
+        <div class="future-role"><div class="future-dot critical"></div> 1× Product Manager</div>
+        <div class="future-role"><div class="future-dot high"></div> 2× Frontend Engineers</div>
+        <div class="future-role"><div class="future-dot high"></div> 1× Data Engineer</div>
+        <div class="future-role"><div class="future-dot high"></div> 1× DevOps / SRE</div>
+      </div>
+    </div>
+
+    <div class="future-dept">
+      <div class="future-dept-name">🏢 Sales & BD</div>
+      <div class="future-dept-count">2 → 6</div>
+      <div class="future-dept-detail">
+        <div class="future-role"><div class="future-dot critical"></div> 1× BD Manager (Dubai)</div>
+        <div class="future-role"><div class="future-dot high"></div> 1× KSA Sales Manager</div>
+        <div class="future-role"><div class="future-dot high"></div> 1× Egypt Sales Manager</div>
+        <div class="future-role"><div class="future-dot medium"></div> 1× Egypt Operations</div>
+      </div>
+    </div>
+
+    <div class="future-dept">
+      <div class="future-dept-name">📱 Publisher Relations</div>
+      <div class="future-dept-count">2 → 4</div>
+      <div class="future-dept-detail">
+        <div class="future-role"><div class="future-dot high"></div> 1× Publisher Growth Manager</div>
+        <div class="future-role"><div class="future-dot medium"></div> 1× Publisher Relations (Egypt)</div>
+      </div>
+    </div>
+
+    <div class="future-dept">
+      <div class="future-dept-name">📣 Marketing & Ops</div>
+      <div class="future-dept-count">2 → 5</div>
+      <div class="future-dept-detail">
+        <div class="future-role"><div class="future-dot medium"></div> 1× Marketing Manager</div>
+        <div class="future-role"><div class="future-dot medium"></div> 1× Content & SEO</div>
+        <div class="future-role"><div class="future-dot medium"></div> 1× Finance & Admin</div>
+      </div>
+    </div>
+
+  </div>
+
+  <div style="display: flex; justify-content: center; gap: 24px; margin-top: 20px; flex-wrap: wrap;">
+    <div style="display: flex; align-items: center; gap: 6px; font-size: 10px; color: var(--text-dim);">
+      <div class="future-dot critical"></div> Critical — Month 1–3
+    </div>
+    <div style="display: flex; align-items: center; gap: 6px; font-size: 10px; color: var(--text-dim);">
+      <div class="future-dot high"></div> High — Month 3–6
+    </div>
+    <div style="display: flex; align-items: center; gap: 6px; font-size: 10px; color: var(--text-dim);">
+      <div class="future-dot medium"></div> Medium — Month 6–12
+    </div>
+  </div>
+</div>
+
+<!-- ── FOOTER ── -->
+<div class="confidential">
+  CONFIDENTIAL — Perff AI © 2026 — As of February 2026
+</div>
+
+</body>
+</html>

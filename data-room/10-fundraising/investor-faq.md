@@ -8,7 +8,7 @@
 
 ### Q: Why is this called a "Pre-Seed" if you have $1.8M in revenue?
 
-**A:** Perff AI’s only prior investment is Valu.vc (5% equity). The founders near-bootstrapped the company from $0 to $1.8M revenue over 3+ years. While the traction is at Series Seed or even Series A level for MENA, the round is structured as a pre-seed because it is the company’s **first major institutional financing**. Investors get pre-seed pricing on what is effectively Seed/Series A-level traction.
+**A:** Perff AI has never raised outside cash. The only prior arrangement is Valu.vc (5% equity), a venture studio that contributed an estimated ~$50K in services (mentorship, fractional CXO access, legal support, investor introductions, operational tools) — no cash was invested. The founders built the company from $0 to $1.8M revenue over 3+ years entirely on founder capital and reinvested revenue. While the traction is at Series Seed or even Series A level for MENA, the round is structured as a pre-seed because it is the company's **first external cash financing**. Investors get pre-seed pricing on what is effectively Seed/Series A-level traction.
 
 ---
 

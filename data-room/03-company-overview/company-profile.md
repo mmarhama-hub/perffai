@@ -46,7 +46,7 @@ The company operates a two-sided marketplace:
 |---|---|---|
 | **Rima Hani** | Co-Founder & CEO | Abu Dhabi, UAE |
 | **Fahad Alsaedi** | Co-Founder & CTO | Saudi Arabia |
-| **Sadah Chanti** | Co-Founder & COO | Riyadh, KSA |
+| **Sadah Chanti** | Co-Founder & COO · Board Member | Riyadh, KSA |
 
 ---
 
@@ -59,7 +59,7 @@ The company operates a two-sided marketplace:
 | **Clients** | 50+ enterprise brands |
 | **Publishers** | 870+ verified |
 | **Team Size** | 9 full-time |
-| **Funding to Date** | Valu.vc (5% equity) — otherwise revenue-funded |
+| **Funding to Date** | Zero outside cash raised. Valu.vc (5% equity for studio services — no cash). Revenue-funded since inception |
 | **Current Round** | Pre-Seed — $8M |
 
 ---

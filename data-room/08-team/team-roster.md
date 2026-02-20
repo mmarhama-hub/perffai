@@ -23,7 +23,7 @@
 |---|---|---|---|---|
 | **Rima Hani** | Co-Founder & CEO | Abu Dhabi, UAE | 10+ yrs MENA performance marketing · Ex-Equiti, DigiZag, Digital Advantage, Relevant Network | 2022 |
 | **Fahad Alsaedi** | Co-Founder & CTO | Saudi Arabia | 1× exit · Ex-Nana (nana.sa) · MBIT · Full-stack + AI/ML | 2022 |
-| **Sadah Chanti** | Co-Founder & COO | Riyadh, KSA | 17+ yrs leading high-performing teams · Regional communications, operations, KSA market expertise | 2022 |
+| **Sadah Chanti** | Co-Founder & COO | Riyadh, KSA | 17+ yrs bilingual Accounts Director · Social Media Strategy · Digital Marketing · MPA (Yarmouk) · BIS/MIS (UAE University) · Ex-Boopin, ReserveOut, SocialEyez | 2022 |
 
 ### Operations & Finance
 

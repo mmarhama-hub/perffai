@@ -39,14 +39,15 @@
 
 | Shareholder | Role | Ownership | Type |
 |---|---|---|---|
-| **Rima Hani** | Co-Founder & CEO | 87.4% | Individual — Founding Shares |
-| **Fahad Alsaedi** | Co-Founder & CTO | 5.7% | Individual — Founding Shares |
-| **Sadah Chanti** | Co-Founder & COO | 1.9% | Individual — Founding Shares |
-| **Valu.vc** | Venture Capital | 5.0% | Preferred — Venture Studio |
+| **Rima Hani** | Co-Founder & CEO | 87.0% | Individual — Founding Shares |
+| **Fahad Alsaedi** | Co-Founder & CTO | 6.0% | Individual — Founding Shares |
+| **Sadah Chanti** | Co-Founder & COO | 2.0% | Individual — Founding Shares |
+| **Valu.vc** | Venture Studio Partner | 5.0% | Common — Services-for-Equity |
 | **Total** | | **100%** | |
 
 ### Notes
-- One prior VC investment: Valu.vc (5% equity)
+- One prior arrangement: Valu.vc (5% equity for ~$50K in venture studio services — no cash invested). Services included market validation, mentorship & fractional CXO access, legal & accounting support, investor network introductions, talent sourcing, and operational tools.
+- **No outside cash has been invested to date** — the company was built entirely on founder capital and reinvested revenue
 - No convertible notes, SAFEs, or other instruments outstanding
 - No employee options granted to date (ESOP pool to be created post-investment)
 - Clean cap table with no encumbrances or liens

@@ -212,7 +212,7 @@ The company is **near-breakeven** in 2025 on an operating basis, with 66.5% gros
 
 ### Has Perff AI raised any funding?
 
-Perff AI’s only prior investment is **Valu.vc (5% equity)**. The company was near-bootstrapped to $1.8M in revenue. The current $8M pre-seed round is the company’s first major institutional financing.
+Perff AI has never raised outside cash. The only prior arrangement is **Valu.vc (5% equity for ~$50K in venture studio services — no cash invested)**. Services included mentorship, fractional CXO access, legal & accounting support, investor introductions, pilot customer support, and operational tools. The company was built to $1.8M in revenue entirely on founder capital and reinvested revenue. The current $8M pre-seed round is the company's **first external cash financing**.
 
 ---
 

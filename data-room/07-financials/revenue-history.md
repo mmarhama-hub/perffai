@@ -124,7 +124,7 @@
 
 ## Key Revenue Insights
 
-1. **Near-bootstrapped growth** — Perff AI was built primarily on revenue and founder capital, with venture studio support from Valu.vc (services + capital as part of their studio model)
+1. **Self-funded growth** — Perff AI was built entirely on revenue and founder capital with zero outside cash invested. Valu.vc contributed venture studio services (mentorship, legal, talent sourcing, operational tools) in exchange for 5% equity — no cash was part of this arrangement
 2. **Seasonal patterns** — Q4 is consistently the strongest (30%+ of annual revenue) driven by Black Friday, Singles' Day, and holiday commerce
 3. **Geographic diversification** — KSA growing fastest (75% YoY) and will likely become the largest market by 2027
 4. **Vertical diversification** — No single vertical represents more than 32% of revenue

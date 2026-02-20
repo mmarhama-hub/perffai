@@ -10,26 +10,27 @@
 
 | Shareholder | Shares | Ownership % | Type | Notes |
 |---|---|---|---|---|
-| **Rima Hani** | 9,200 | 87.4% | Common — Founding Shares | Co-Founder & CEO |
-| **Fahad Alsaedi** | 600 | 5.7% | Common — Founding Shares | Co-Founder & CTO |
-| **Sadah Chanti** | 200 | 1.9% | Common — Founding Shares | Co-Founder & COO |
-| **Valu.vc** | 526 | 5.0% | Preferred — Venture Studio | Venture studio partnership |
-| **Total** | **10,526** | **100.0%** | | |
+| **Rima Hani** | 8,700 | 87.0% | Common — Founding Shares | Co-Founder & CEO |
+| **Fahad Alsaedi** | 600 | 6.0% | Common — Founding Shares | Co-Founder & CTO |
+| **Sadah Chanti** | 200 | 2.0% | Common — Founding Shares | Co-Founder & COO |
+| **Valu.vc / Mustafa Hasan** | 500 | 5.0% | Common — Services-for-Equity | Venture studio partnership (no cash invested — services only) |
+| **Total** | **10,000** | **100.0%** | | |
 
 ### Key Facts
 
 | Item | Detail |
 |---|---|
-| **Total Shares Authorized** | 10,526 (fully diluted) |
-| **Common Shares (Founders)** | 10,000 |
-| **Preferred Shares (Valu.vc)** | 526 |
+| **Total Shares Authorized** | 10,000 (fully diluted) |
+| **Common Shares (Founders)** | 9,500 |
+| **Common Shares (Valu.vc / Mustafa Hasan)** | 500 |
 | **Par Value** | $0.001 per share |
 | **Share Capital** | $10,000 (authorized share capital — Delaware Inc.) |
 | **Outstanding Options** | 0 |
 | **Outstanding Convertible Instruments** | 0 |
 | **Warrants** | 0 |
 | **Encumbrances / Liens** | None |
-| **Prior Funding Rounds** | 1 — Valu.vc (5% equity, Venture Studio) |
+| **Cash Invested to Date** | $0 — company built entirely on founder capital and reinvested revenue |
+| **Prior Arrangements** | 1 — Valu.vc (5% equity, services-for-equity venture studio partnership) |
 
 ---
 
@@ -39,10 +40,10 @@
 
 | Shareholder | Ownership % | Value (at $40M post) | Notes |
 |---|---|---|---|
-| **Rima Hani** | 65.6% | $26.2M | Diluted from 87.4% |
-| **Fahad Alsaedi** | 4.3% | $1.7M | Diluted from 5.7% |
-| **Sadah Chanti** | 1.4% | $0.6M | Diluted from 1.9% |
-| **Valu.vc** | 3.8% | $1.5M | Diluted from 5.0% |
+| **Rima Hani** | 65.3% | $26.1M | Diluted from 87.0% |
+| **Fahad Alsaedi** | 4.5% | $1.8M | Diluted from 6.0% |
+| **Sadah Chanti** | 1.5% | $0.6M | Diluted from 2.0% |
+| **Valu.vc / Mustafa Hasan** | 3.8% | $1.5M | Diluted from 5.0% |
 | **Pre-Seed Investors** | 20.0% | $8.0M | $8M invested |
 | **ESOP Pool** | 5.0% | $2.0M | Reserved for key hires |
 | **Total** | **100.0%** | **$40.0M** | |
@@ -51,10 +52,10 @@
 
 | Shareholder | Ownership % | Value (at $48M post) | Notes |
 |---|---|---|---|
-| **Rima Hani** | 69.2% | $33.2M | Diluted from 87.4% |
-| **Fahad Alsaedi** | 4.5% | $2.2M | Diluted from 5.7% |
-| **Sadah Chanti** | 1.5% | $0.7M | Diluted from 1.9% |
-| **Valu.vc** | 4.0% | $1.9M | Diluted from 5.0% |
+| **Rima Hani** | 68.9% | $33.1M | Diluted from 87.0% |
+| **Fahad Alsaedi** | 4.8% | $2.3M | Diluted from 6.0% |
+| **Sadah Chanti** | 1.6% | $0.8M | Diluted from 2.0% |
+| **Valu.vc / Mustafa Hasan** | 4.0% | $1.9M | Diluted from 5.0% |
 | **Pre-Seed Investors** | 16.7% | $8.0M | $8M invested |
 | **ESOP Pool** | 4.2% | $2.0M | Reserved for key hires |
 | **Total** | **100.0%** | **$48.0M** | |
@@ -119,8 +120,8 @@
 
 | Detail | Value |
 |---|---|
-| **Current Ownership** | 87.4% (fully diluted) |
-| **Post Pre-Seed (estimated)** | 65.6–69.2% |
+| **Current Ownership** | 87.0% (fully diluted) |
+| **Post Pre-Seed (estimated)** | 65.3–68.9% |
 | **Vesting** | Fully vested (3+ years of service) — subject to post-investment vesting arrangement |
 | **Proposed Re-Vesting** | 4-year, 1-year cliff (with 3-year retroactive credit → effectively 1 year remaining) |
 | **Full-Time Commitment** | 100% — sole professional activity |
@@ -129,8 +130,8 @@
 
 | Detail | Value |
 |---|---|
-| **Current Ownership** | 5.7% (fully diluted) |
-| **Post Pre-Seed (estimated)** | 4.3–4.5% |
+| **Current Ownership** | 6.0% (fully diluted) |
+| **Post Pre-Seed (estimated)** | 4.5–4.8% |
 | **Vesting** | Fully vested (3+ years of service) — subject to post-investment vesting arrangement |
 | **Proposed Re-Vesting** | 4-year, 1-year cliff (with 3-year retroactive credit → effectively 1 year remaining) |
 | **Full-Time Commitment** | 100% — sole professional activity |
@@ -139,20 +140,23 @@
 
 | Detail | Value |
 |---|---|
-| **Current Ownership** | 1.9% (fully diluted) |
-| **Post Pre-Seed (estimated)** | 1.4–1.5% |
+| **Current Ownership** | 2.0% (fully diluted) |
+| **Post Pre-Seed (estimated)** | 1.5–1.6% |
 | **Vesting** | Fully vested (3+ years of service) — subject to post-investment vesting arrangement |
 | **Proposed Re-Vesting** | 4-year, 1-year cliff (with 3-year retroactive credit → effectively 1 year remaining) |
 | **Full-Time Commitment** | 100% — sole professional activity |
 
-### Valu.vc (Venture Capital)
+### Valu.vc (Venture Studio Partner)
 
 | Detail | Value |
 |---|---|
 | **Current Ownership** | 5.0% |
 | **Post Pre-Seed (estimated)** | 3.8–4.0% |
-| **Type** | Preferred — Venture Capital |
-| **Investment Stage** | Pre-Seed |
+| **Type** | Common — Services-for-Equity |
+| **Cash Invested** | $0 — no cash was invested |
+| **Estimated Value of Services** | ~$50,000 |
+| **Arrangement** | Venture studio partnership — Valu.vc contributed studio services in exchange for 5% equity |
+| **Services Provided** | *(1) Ideation & Validation* — market assessment, MVP development support, tech architecture review; *(2) Mentorship & Learning* — expert mentorship, fractional CXO access, founder training; *(3) Funding & Scaling* — investor network introductions, pilot customer acquisition support, digital marketing guidance; *(4) Empowering Tools* — legal & accounting support (company formation, tax compliance), talent sourcing, ERP/software access |
 
 ---
 
@@ -186,16 +190,16 @@
 
 | Criterion | Status | Notes |
 |---|---|---|
-| **Single prior investor** | ✅ Clean | Valu.vc (5%) — venture studio partnership (services + capital) |
+| **Single prior arrangement** | ✅ Clean | Valu.vc (5%) — venture studio partnership (~$50K in services-for-equity, no cash invested) |
 | **No convertible notes** | ✅ Clean | No outstanding debt instruments |
 | **No SAFEs** | ✅ Clean | No prior SAFE agreements |
 | **No options granted** | ✅ Clean | ESOP to be created at this round |
 | **No warrants** | ✅ Clean | No warrants outstanding |
 | **No secondary sales** | ✅ Clean | No shares transferred |
-| **3 co-founders** | ✅ Clear | CEO (87.4%), CTO (5.7%), COO (1.9%) — defined roles |
+| **3 co-founders** | ✅ Clear | CEO (87%), CTO (6%), COO (2%) — defined roles |
 | **No litigation / disputes** | ✅ Clean | No pending or threatened disputes |
 
-> **Perff AI has one of the cleanest cap tables an investor will see at this revenue stage.** One venture studio partnership (Valu.vc, 5%), three co-founders with defined roles, and no complex instruments to untangle.
+> **Perff AI has one of the cleanest cap tables an investor will see at this revenue stage.** One venture studio partnership (Valu.vc, 5% for ~$50K in studio services — no cash invested), three co-founders with defined roles, zero outside cash raised, and no complex instruments to untangle. This $8M pre-seed is the company's first external cash financing.
 
 ---
 

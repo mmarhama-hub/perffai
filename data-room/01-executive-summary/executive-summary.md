@@ -118,7 +118,7 @@ Perff AI provides a **complete affiliate marketing ecosystem** for MENA:
 |---|---|---|
 | **Rima Hani** | Co-Founder & CEO | 10+ years MENA performance marketing · Ex-Equiti Group, DigiZag, Digital Advantage, Relevant Network |
 | **Fahad Alsaedi** | Co-Founder & CTO | 1× exit · Ex-Nana (nana.sa) · MBIT · Full-stack engineering |
-| **Sadah Chanti** | Co-Founder & COO | 17+ yrs leading high-performing teams · Regional Director of Comms |
+| **Sadah Chanti** | Co-Founder & COO | 17+ yrs bilingual Accounts Director & Digital Marketing Expert · MPA · Ex-Boopin, ReserveOut, SocialEyez |
 
 **Team:** 9 full-time across Abu Dhabi, Amman, Riyadh, Gaza
 

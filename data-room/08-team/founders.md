@@ -95,28 +95,44 @@ Fahad Alsaedi is a **serial technical founder** with a previous exit and enginee
 ### Summary
 | Detail | Value |
 |---|---|
-| **Role** | Co-Founder & COO (Regional Director of Comms) |
+| **Role** | Co-Founder & COO · Board Member |
 | **Location** | Riyadh, KSA |
-| **Focus Areas** | Communications, Operations, Team Leadership, KSA Market |
-| **Experience** | 17+ years leading high-performing teams |
+| **Focus Areas** | Social Media Strategy, Digital Marketing, Accounts Leadership, AI & Social Media |
+| **Experience** | 17+ years as bilingual Social Media & Accounts Director |
+| **Education** | MPA — Yarmouk University · BIS (MIS) — UAE University |
 
 ### Background
 
-Sadah Chanti is a **strategically driven, bilingual Regional Head of Communications** with over 17 years of experience leading high-performing teams of account managers, content creators, editors, videographers, and video producers. She brings deep operational expertise and a strong understanding of the KSA market.
+Sadah Chanti is a **strategically driven, bilingual Accounts Director and Digital Marketing Expert** with over 17 years of experience leading multidisciplinary teams to turn brand ideas into meaningful digital narratives. She blends strategic thinking, data, and AI to build impactful social ecosystems that drive growth and relevance.
+
+Holding a **Bachelor's degree in Management Information Systems** (UAE University, 2008) and a **Master's degree in Public Administration** (Yarmouk University, 2012), Sadah's work sits at the intersection of technology, strategy, and creativity.
+
+### Professional Experience
+
+| Period | Company | Role | Highlights |
+|---|---|---|---|
+| **Jan 2026 – Present** | **Perff AI (Global PerfAI)** | Board Member & Co-Founder | Strategic direction of the AI-driven affiliate platform |
+| **May 2022 – Present** | **Boopin** | Accounts Director | Leads 20+ person social account management team across departments; drives insight-led strategies and high-impact campaigns; consistently delivers sustained monthly growth and measurable business impact |
+| **Aug 2020 – Jun 2022** | **ReserveOut** | Social Media Director | Spearheaded social media strategies, managed cross-functional teams, elevated brand visibility and user engagement |
+| **Dec 2011 – Aug 2020** | **SocialEyez** | Account Manager → Content Specialist → Online Engagement Specialist | ~9 years managing high-profile accounts (Etisalat); led Social Engagement team; on-ground event coverage synced with live TV broadcast (Arab Reading Challenge) |
+| **Jun 2007 – Jul 2007** | **ABB** | Trainee | Professional coordination, correspondence, internal presentations |
 
 ### Key Competencies
-- **Team leadership** — 17+ years building and managing high-performing, cross-functional teams
-- **Strategic communications** — Brand storytelling, content strategy, and regional campaigns
-- **Bilingual** — Fluent Arabic and English
-- **KSA market expertise** — Deep understanding of Saudi Arabia's business and media landscape
-- **Operational excellence** — Streamlining processes and scaling team output
+
+| Category | Skills & Expertise |
+|---|---|
+| **Strategic Leadership** | Social Media Strategy, Branding, Team Leadership (20+ members), Training & Development, Project Management, Event Planning |
+| **Digital Marketing** | Content Creation, Brand Management, Online Engagement, Strategic Planning, AI-driven social ecosystems |
+| **Client Relations** | Stakeholder Engagement, Business Planning, Client Retention |
+| **Technical** | Bilingual (Arabic/English), Data-driven decision making, AI & Social Media integration |
 
 ### Why Sadah Is the Right COO
-1. **Team builder** — Proven ability to lead diverse teams across content, media, and operations
-2. **KSA insider** — Based in Riyadh with deep market understanding
-3. **Communications expertise** — Strengthens Perff AI's brand and market positioning
-4. **Operational leadership** — Brings structure and efficiency to scaling operations
-5. **Complementary to CEO/CTO** — Rounds out leadership with comms and ops capabilities
+1. **Proven team builder** — Currently leads 20+ person multidisciplinary team at Boopin with sustained growth
+2. **KSA insider** — Based in Riyadh with 17+ years of regional market expertise
+3. **Digital marketing mastery** — Deep understanding of social ecosystems, brand strategy, and campaign execution
+4. **AI-forward thinker** — Blends data and AI into marketing strategy; natural fit for an AI-powered platform
+5. **Accounts leadership** — Direct experience managing enterprise client portfolios and stakeholder relationships
+6. **Academic foundation** — MPA + MIS degrees ground her work at the intersection of technology and strategy
 
 ---
 
@@ -124,12 +140,12 @@ Sadah Chanti is a **strategically driven, bilingual Regional Head of Communicati
 
 | Dimension | Rima (CEO) | Fahad (CTO) | Sadah (COO) | Together |
 |---|---|---|---|---|
-| **Domain** | Performance marketing, business | Technology, AI engineering | Communications, operations | Business + Tech + Comms coverage |
-| **Network** | Brand clients, publishers | Tech talent, KSA ecosystem | Media, KSA market | Full stakeholder map |
+| **Domain** | Performance marketing, business | Technology, AI engineering | Digital marketing, accounts, social strategy | Business + Tech + Marketing coverage |
+| **Network** | Brand clients, publishers | Tech talent, KSA ecosystem | Enterprise clients, KSA media landscape | Full stakeholder map |
 | **Geography** | UAE-based, MENA-wide | KSA-based | KSA-based | Two biggest markets covered |
 | **Language** | Arabic, English | Arabic, English | Arabic, English | Full regional communication |
-| **Style** | Relationship-driven, commercial | Technical, product-focused | Strategic comms, team leadership | Balanced leadership |
-| **Experience** | Built $1.8M business organically | 1× exit, scaled at Nana | 17+ yrs leading high-performing teams | Revenue + Startup + Ops DNA |
+| **Style** | Relationship-driven, commercial | Technical, product-focused | Strategic, data-driven, AI-forward | Balanced leadership |
+| **Experience** | Built $1.8M business organically | 1× exit, scaled at Nana | 17+ yrs Accounts Director, 20+ person teams | Revenue + Startup + Marketing DNA |
 
 ---
 

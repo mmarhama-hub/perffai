@@ -31,11 +31,11 @@
 | Co-Founder & CEO | 1 | Abu Dhabi, UAE | $8,000 | $8,000 |
 | Co-Founder & CTO | 1 | KSA | $8,000 | $8,000 |
 | General Manager | 1 | Amman, Jordan | $4,000 | $4,000 |
-| Regional Director of Comms | 1 | Riyadh, KSA | $5,000 | $5,000 |
+| Co-Founder & COO | 1 | Riyadh, KSA | $5,000 | $5,000 |
 | Head of Communications | 1 | Riyadh, KSA | $3,500 | $3,500 |
 | Sr. Affiliate Manager (×2) | 2 | Amman / Gaza | $3,000 each | $6,000 |
 | Social Media Manager | 1 | Amman, Jordan | $2,500 | $2,500 |
-| **Total Team** | **8** | | | **$37,000** |
+| **Total Team** | **9** | | | **$37,000** |
 | Benefits & Taxes (~25%) | — | — | — | $9,250 |
 | Contractors (Dev, Design) | — | — | — | $8,750 |
 | **Total People Cost** | | | | **$55,000** |

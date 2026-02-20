@@ -32,7 +32,7 @@ Perff AI's pre-seed is larger than a typical pre-seed because **this is not a ty
 | **Product** | MVP / prototype | Live platform, 870+ publishers |
 | **Team** | 2 – 3 | 9 full-time |
 | **Market validation** | Hypothesis | 87% client retention, 8.2% CVR |
-| **Prior funding** | Angel / friends & family | Valu.vc (5% equity) — near-bootstrapped to $1.8M |
+| **Prior funding** | Angel / friends & family | Zero cash raised. Valu.vc (5% for studio services — no cash). Self-funded to $1.8M |
 
 > **The $8M raise reflects Series Seed–level traction combined with the founders' deliberate choice to raise only when the business was proven and capital-efficient.**
 

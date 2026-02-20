@@ -54,7 +54,7 @@ With the model proven, growth accelerated rapidly:
 
 **2024:** Revenue doubled to $1.2M. They crossed 50+ enterprise clients, 620+ publishers, and $50M in attributed sales. They achieved 17.5% market share in the UAE/KSA affiliate space. AI-powered scoring and optimization went live.
 
-All of this was achieved with **minimal venture capital** — funded primarily by revenue and founder capital, with one VC investment (Valu.vc, 5% equity).
+All of this was achieved with **zero outside cash investment** — funded entirely by revenue and founder capital. The only external arrangement is Valu.vc, a venture studio that contributed services (mentorship, legal support, investor network access, operational tools) in exchange for 5% equity. No cash was invested by Valu.vc.
 
 ---
 

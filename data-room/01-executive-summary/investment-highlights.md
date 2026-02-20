@@ -11,7 +11,7 @@ Perff AI is **not a pitch deck startup**. We're already generating meaningful re
 - **$50M+ in attributed sales** driven for partner brands
 - Revenue trajectory: $200K (2022) → $600K (2023) → $1.2M (2024) → $1.8M (2025E)
 - Profitable unit economics with performance-based revenue model
-- **Near-bootstrapped** — built primarily on revenue and founder capital, with venture studio support from Valu.vc (5% equity as part of their studio model)
+- **Fully self-funded** — built entirely on revenue and founder capital. Zero outside cash invested. Valu.vc contributed venture studio services (mentorship, legal support, investor introductions) in exchange for 5% equity — no cash
 
 **Why this matters:** You're investing in a proven business model, not an experiment. The founders have demonstrated they can build, sell, and retain enterprise clients with minimal outside capital.
 
@@ -72,14 +72,14 @@ The MENA affiliate marketing space is wide open, but the window is closing:
 
 ## 6. Capital-Efficient Founders
 
-Rima, Fahad, and Sadah built Perff AI to **$1.2M revenue with near-zero outside funding**:
+Rima, Fahad, and Sadah built Perff AI to **$1.8M revenue with zero outside cash**:
 
-- Near-bootstrapped operations, primarily revenue-funded with venture studio support from Valu.vc
+- Built entirely on revenue and founder capital — zero outside cash raised (Valu.vc contributed studio services for 5% equity, no cash)
 - 9-person team achieving metrics that rival funded competitors
 - Deep MENA networks from 10+ years in the region
 - Fahad has a prior exit — knows how to build and scale
 - Rima’s rolodex includes relationships with every major MENA brand
-- Sadah brings 17+ years of team leadership and communications expertise
+- Sadah brings 17+ years as Accounts Director managing 20+ person teams and enterprise client portfolios
 
 **Why this matters:** Capital-efficient founders deliver higher ROI per dollar invested. They've proven they can do more with less — imagine what they can do with $8M in strategic capital.
 
@@ -163,7 +163,7 @@ The investment thesis maps to a compelling return scenario:
 | AI moat | 250+ campaigns training models, MENA-specific data |
 | PMF proven | 87% retention, 50+ enterprise clients |
 | First-mover window | 18–24 months before international entry |
-| Capital-efficient | Near-bootstrapped to $1.2M with venture studio support |
+| Capital-efficient | Self-funded to $1.8M with venture studio support |
 | Network effects | 870+ publishers, 64% organic growth |
 | Diversified | 9 verticals, no single-industry dependency |
 | Aligned incentives | Performance-based — everyone wins together |

@@ -111,7 +111,7 @@ The $8M pre-seed investment transforms Perff AI from a **revenue-generating mana
 | **Enterprise Brands** | 50+ | 60+ | 80+ | 100+ | 120+ |
 | **Publishers** | 870+ | 1,000+ | 1,200+ | 1,500+ | 2,000+ |
 | **Markets** | 3 (UAE, KSA, JO) | 3 | 3 | 4 (+Egypt) | 5 (+Kuwait) |
-| **Team Size** | 8 | 16 | 25 | 30 | 40 |
+| **Team Size** | 9 | 16 | 25 | 30 | 40 |
 | **AI Features Live** | 4 | 5 | 7 | 8 | 10+ |
 | **SaaS Revenue %** | 0% | 0% | 5% | 12% | 18% |
 
