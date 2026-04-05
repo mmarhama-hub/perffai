@@ -228,6 +228,157 @@
 
 ---
 
+## 📊 Cap-Based LTV — Valuation Justification
+
+*Using Customer Lifetime Value (LTV) to justify the SAFE valuation cap / pre-money valuation.*
+
+### What is Cap-Based LTV?
+
+Cap-based LTV is a method where the **valuation cap** (or pre-money valuation) is justified by the **total future economic value** the company can extract from its customer base and pipeline — grounded in proven unit economics, not projections alone.
+
+---
+
+### Step 1: Core Unit Economics (Proven)
+
+| Metric | Value | Source |
+|---|---|---|
+| **LTV per brand client** | $67,000 | $24K/yr × 1.4 expansion × 66.5% margin × 3 yrs |
+| **CAC per brand client** | $8,500 | Sales + marketing + onboarding |
+| **LTV/CAC ratio** | 8× | Best-in-class (benchmark: >3×) |
+| **Payback period** | 5.3 months | CAC recovered in ~5 months |
+| **Net Revenue Retention** | ~120% | Clients expand spend YoY |
+| **Gross margin** | 66.5% | After publisher payouts + infra |
+
+*Source: [unit-economics.md](../07-financials/unit-economics.md), [key-metrics.md](../06-traction/key-metrics.md)*
+
+---
+
+### Step 2: Current Customer Base Value
+
+**Existing 50+ brands — what are they worth?**
+
+| Calculation | Value |
+|---|---|
+| Current brands | 50 |
+| LTV per brand | $67,000 |
+| **Total LTV of current base** | **$3,350,000** |
+
+This is the minimum embedded value — revenue already contracted or highly likely from existing relationships.
+
+---
+
+### Step 3: Near-Term Pipeline Value (24 months post-investment)
+
+| Metric | Value |
+|---|---|
+| Target brands by end 2027 | 150+ |
+| New brands to acquire | ~100 |
+| LTV per new brand | $67,000 |
+| **Total LTV from new brands** | **$6,700,000** |
+| **Combined LTV (existing + new)** | **$10,050,000** |
+
+---
+
+### Step 4: Publisher Network Value
+
+| Metric | Value |
+|---|---|
+| Current publishers | 870+ |
+| Gross profit per publisher (lifetime) | $1,035 |
+| **Current publisher base value** | **$900,450** |
+| Target publishers (2027) | 2,000+ |
+| **Projected publisher base value** | **$2,070,000** |
+
+*Source: [unit-economics.md](../07-financials/unit-economics.md) — publisher acquisition cost $68, lifetime GP $1,035, ROI 15×*
+
+---
+
+### Step 5: LTV-Based Valuation Calculation
+
+**Method A: Customer LTV Multiple**
+
+Investors often value companies at **3–5× the total LTV of the addressable customer base** (discounted for execution risk and time).
+
+| Scenario | Total LTV Base | Multiple | Implied Valuation |
+|---|---|---|---|
+| Conservative (existing only) | $3.35M | 10× | $33.5M |
+| Base (existing + 24-mo pipeline) | $10.05M | 4× | $40.2M |
+| Aggressive (full pipeline + publisher value) | $12.12M | 4× | $48.5M |
+
+**Method B: Revenue Run-Rate × LTV Efficiency**
+
+| Metric | Calculation | Value |
+|---|---|---|
+| Current ARR | $1.8M | |
+| LTV/CAC ratio | 8× | |
+| ARR × LTV/CAC | $1.8M × 8 | **$14.4M** |
+| Apply 2.5× growth premium | $14.4M × 2.5 | **$36.0M** |
+
+**Method C: Forward Revenue × Gross Margin Multiple**
+
+| Metric | Calculation | Value |
+|---|---|---|
+| 2027 projected revenue | $8.0M | |
+| Gross margin | 70% | |
+| Gross profit (2027) | $5.6M | |
+| Apply 7× GP multiple | $5.6M × 7 | **$39.2M** |
+
+---
+
+### Step 6: Convergence — All Methods Point to $35M–$40M
+
+| Method | Implied Pre-Money | |
+|---|---|---|
+| **A: Customer LTV Multiple (base)** | $40.2M | ✅ |
+| **B: ARR × LTV/CAC efficiency** | $36.0M | ✅ |
+| **C: Forward gross profit multiple** | $39.2M | ✅ |
+| **Average** | **$38.5M** | ✅ |
+
+**Conclusion:** A $35M–$40M pre-money valuation cap is **well-supported** by customer LTV, unit economics efficiency, and forward revenue quality.
+
+---
+
+### Step 7: Why This Justifies the SAFE Cap
+
+For a SAFE instrument with a valuation cap:
+
+| SAFE Cap | Investor Ownership at Conversion | LTV Coverage Ratio |
+|---|---|---|
+| $40M cap | 16.7% (on $8M invest) | LTV base covers 25% of cap |
+| $43M cap | 15.7% | LTV base covers 23% of cap |
+| $48M cap | 14.3% | LTV base covers 21% of cap |
+
+**Key investor takeaway:**
+- The current customer base alone generates $3.35M in lifetime gross profit
+- With 24-month execution, total LTV base grows to $10M+
+- The $8M investment **directly funds customer acquisition** at proven 8× LTV/CAC efficiency
+- Every $1 of CAC invested returns $8 in lifetime value
+- The valuation cap reflects **proven economics**, not speculative growth
+
+---
+
+### Cap-Based LTV — Investor FAQ
+
+- **Q: How do you justify a $40M cap with $1.8M revenue?**
+  **A:** Because our unit economics are proven: 8× LTV/CAC, 5.3-month payback, 120% NRR. The cap reflects the total economic value we can extract from customers, not just trailing revenue.
+
+- **Q: What if LTV assumptions are wrong?**
+  **A:** Even at 50% haircut on LTV ($33.5K instead of $67K), the LTV/CAC is still 4×, payback is still under 12 months, and the business is still fundamentally sound.
+
+- **Q: How does LTV justify the SAFE cap specifically?**
+  **A:** The cap prices the company based on what each customer is worth over their lifetime. 150 brands × $67K LTV = $10M+ in embedded value. Add publisher network value and platform IP, and $35M–$40M cap is conservative.
+
+- **Q: What makes LTV reliable here?**
+  **A:** Three years of cohort data. 2022 cohort clients are still active and expanding spend. 87% retention is proven, not projected.
+
+- **Q: How does NRR support the cap?**
+  **A:** 120% NRR means existing clients grow 20% annually without new sales effort. This compounds the LTV calculation and makes the customer base more valuable over time.
+
+- **Q: What is the downside protection for investors?**
+  **A:** Even in a bear case, the business is near-breakeven on revenue. Investors are not funding a pre-revenue experiment — they are funding the scaling of a proven economic engine.
+
+---
+
 ## Quick-Fire Answers
 
 | Question | Answer |
