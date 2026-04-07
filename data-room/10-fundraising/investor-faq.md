@@ -2,13 +2,15 @@
 
 > **Confidential — Common Questions from Investors**
 
+> **🔄 DATA-ROOM SYNC MARKER (Apr 2026):** Revenue baseline reconciled to accountant P&L (2025 revenue: $2.49M). Growth bridge updated accordingly.
+
 ---
 
 ## Company & Business Model
 
-### Q: Why is this called a "Pre-Seed" if you have $1.8M in revenue?
+### Q: Why is this called a "Pre-Seed" if you have $2.49M in revenue?
 
-**A:** Perff AI has never raised outside cash. The only prior arrangement is Valu.vc (5% equity), a venture studio that contributed an estimated ~$50K in services (mentorship, fractional CXO access, legal support, investor introductions, operational tools) — no cash was invested. The founders built the company from $0 to $1.8M revenue over 3+ years entirely on founder capital and reinvested revenue. While the traction is at Series Seed or even Series A level for MENA, the round is structured as a pre-seed because it is the company's **first external cash financing**. Investors get pre-seed pricing on what is effectively Seed/Series A-level traction.
+**A:** Perff AI has never raised outside cash. The only prior arrangement is Valu.vc (5% equity), a venture studio that contributed an estimated ~$50K in services (mentorship, fractional CXO access, legal support, investor introductions, operational tools) — no cash was invested. The founders built the company from $0 to $2.49M revenue over 3+ years entirely on founder capital and reinvested revenue. While the traction is at Series Seed or even Series A level for MENA, the round is structured as a pre-seed because it is the company's **first external cash financing**. Investors get pre-seed pricing on what is effectively Seed/Series A-level traction.
 
 ---
 
@@ -116,7 +118,7 @@ Perff AI's advantages: AI-native platform, largest MENA publisher network (870+)
 
 ## Financials & Economics
 
-### Q: How do you get from $1.8M to $8M revenue in 2 years?
+### Q: How do you get from $2.49M to $8M revenue in 2 years?
 
 **A:** Five growth levers:
 
@@ -127,7 +129,7 @@ Perff AI's advantages: AI-native platform, largest MENA publisher network (870+)
 | **Egypt market entry** | +$0.8M |
 | **SaaS features launch** | +$1.0M |
 | **Publisher network growth** (2,000+ → more conversions) | +$1.3M |
-| **Total bridge from $1.8M → $8.0M** | **+$6.2M** |
+| **Total bridge from $2.49M → $8.0M** | **+$5.51M** |
 
 Each lever has historical precedent (client expansion is proven at 40% YoY; publisher growth is 64% organic).
 
@@ -135,22 +137,21 @@ Each lever has historical precedent (client expansion is proven at 40% YoY; publ
 
 ### Q: When does the company become profitable?
 
-**A:** **EBITDA breakeven by Q4 2027**, cash flow positive in 2028.
+**A:** On the accountant P&L baseline, the company is already net-profitable in 2025 and remains profitable in 2026.
 
-| Year | EBITDA | Margin |
+| Year | Net Profit | Net Margin |
 |---|---|---|
-| 2026 | ($1.8M) | -51% (investment year) |
-| 2027 | ($0.5M) | -6% (near-breakeven) |
-| 2028 | $1.5M | +10% (profitable) |
-| 2029 | $5.0M | +20% |
+| 2025 | $0.61M | 24.5% |
+| 2026 | $0.94M | 28.2% |
+| 2027 | $1.09M | 31.3% |
 
-The $8M investment provides **28–36 months of runway** — sufficient to reach profitability without additional capital.
+The $8M investment is for acceleration (AI platform and regional scale), not survival.
 
 ---
 
 ### Q: What's the path to a $100M+ outcome for investors?
 
-**A:** Revenue trajectory: $1.8M → $3.5M → $8M → $15M → $25M → $40M by 2030.
+**A:** Revenue trajectory: $2.49M → $3.34M → $8M → $15M → $25M → $40M by 2030.
 
 Comparable exits:
 - **Impact.com** raised at $1.5B+ valuation
@@ -198,7 +199,7 @@ The result: investors get proven traction at pre-seed pricing.
 ### Q: What's the expected pre-money valuation?
 
 **A:** Indicative range of **$32–40M** pre-money ($40–48M post-money). This implies:
-- 18–22× on trailing revenue ($1.8M)
+- 14–16× on trailing revenue ($2.49M)
 - 10× on projected 2026 revenue ($3.5M)
 - Aligned with MENA pre-seed/seed benchmarks for companies with this traction level
 

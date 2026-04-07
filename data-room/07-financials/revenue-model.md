@@ -97,9 +97,9 @@ Publisher receives $75 payout
 |---|---|
 | **Monthly Conversions (Jan 2026)** | ~27,000 |
 | **Monthly GMV Processed** | ~$4.2M |
-| **Monthly Revenue** | ~$150K |
-| **Monthly Gross Profit** | ~$105K |
-| **Gross Margin** | ~66.5% |
+| **Monthly Revenue** | ~$207.5K |
+| **Monthly Gross Profit** | ~$65.8K |
+| **Gross Margin** | ~31.7% (accountant P&L basis) |
 
 ---
 
@@ -121,7 +121,7 @@ Revenue = (# Active Campaigns) × (Avg Conversions/Campaign) × (Avg Revenue/Con
 
 | Driver | Revenue Impact |
 |---|---|
-| **Base (current run rate)** | $1.8M |
+| **Base (current run rate)** | $2.49M |
 | **New brand acquisition (+100 brands × $24K avg)** | +$2.4M |
 | **Existing client expansion (40% uplift)** | +$0.7M |
 | **Egypt market entry** | +$0.8M |

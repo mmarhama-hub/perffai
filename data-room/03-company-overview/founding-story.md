@@ -1,5 +1,7 @@
 # Perff AI — Founding Story
 
+> **🔄 DATA-ROOM SYNC MARKER (Apr 2026):** Historical revenue references reconciled to accountant baseline.
+
 ---
 
 ## The Origin
@@ -50,9 +52,9 @@ The first year was about proving the model. They onboarded their first brand cli
 
 With the model proven, growth accelerated rapidly:
 
-**2023:** Revenue tripled to $600K. They signed noon, Talabat, and DAMAC — three of the region's most recognizable brands. The publisher network grew to 350+. They launched their fraud detection MVP.
+**2023:** Revenue scaled to ~$502K. They signed noon, Talabat, and DAMAC — three of the region's most recognizable brands. The publisher network grew to 350+. They launched their fraud detection MVP.
 
-**2024:** Revenue doubled to $1.2M. They crossed 50+ enterprise clients, 620+ publishers, and $50M in attributed sales. They achieved 17.5% market share in the UAE/KSA affiliate space. AI-powered scoring and optimization went live.
+**2024:** Revenue scaled to ~$1.80M. They crossed 50+ enterprise clients, 620+ publishers, and $50M in attributed sales. They achieved 17.5% market share in the UAE/KSA affiliate space. AI-powered scoring and optimization went live.
 
 All of this was achieved with **zero outside cash investment** — funded entirely by revenue and founder capital. The only external arrangement is Valu.vc, a venture studio that contributed services (mentorship, legal support, investor network access, operational tools) in exchange for 5% equity. No cash was invested by Valu.vc.
 

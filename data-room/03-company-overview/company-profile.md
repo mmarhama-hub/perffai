@@ -1,5 +1,7 @@
 # Perff AI — Company Profile
 
+> **🔄 DATA-ROOM SYNC MARKER (Apr 2026):** Financial snapshot reconciled to accountant baseline (2024 revenue $1.80M, 2025 revenue $2.49M).
+
 ---
 
 ## Legal Entity
@@ -55,7 +57,7 @@ The company operates a two-sided marketplace:
 | Parameter | Details |
 |---|---|
 | **Stage** | Pre-Seed |
-| **Revenue** | $1.2M (2024) |
+| **Revenue** | $1.80M (2024) · $2.49M (2025) |
 | **Clients** | 50+ enterprise brands |
 | **Publishers** | 870+ verified |
 | **Team Size** | 9 full-time |

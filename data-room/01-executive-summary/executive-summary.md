@@ -2,6 +2,8 @@
 
 > **Pre-Seed Round · $8,000,000 · February 2026**
 
+> **🔄 DATA-ROOM SYNC MARKER (Apr 2026):** Financial baseline reconciled to accountant P&L file (Profit and Lost (2022-2027).pdf): 2024 revenue $1.80M, 2025 revenue $2.49M, 2024 gross margin 28.7%, 2025 gross margin 31.7%.
+
 ---
 
 ## The Company
@@ -105,10 +107,10 @@ Perff AI provides a **complete affiliate marketing ecosystem** for MENA:
 
 | Year | Revenue | Growth |
 |---|---|---|
-| 2022 | ~$200K | — (Year 1) |
-| 2023 | ~$600K | +200% |
-| 2024 | ~$1.2M | +100% |
-| 2025E | ~$1.8M | +50% (projected) |
+| 2022 | ~$247K | — (Year 1) |
+| 2023 | ~$502K | +103% |
+| 2024 | ~$1.80M | +258% |
+| 2025 | ~$2.49M | +38.3% |
 
 ---
 

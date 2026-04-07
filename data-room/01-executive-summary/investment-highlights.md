@@ -2,6 +2,8 @@
 
 > **Pre-Seed Round · $8,000,000 · February 2026**
 
+> **🔄 DATA-ROOM SYNC MARKER (Apr 2026):** Revenue and margin references reconciled to accountant P&L baseline (2024: $1.80M, 2025: $2.49M).
+
 ---
 
 ## 1. Revenue-Generating, Not a Concept
@@ -9,7 +11,7 @@
 Perff AI is **not a pitch deck startup**. We're already generating meaningful revenue with 50+ enterprise clients:
 
 - **$50M+ in attributed sales** driven for partner brands
-- Revenue trajectory: $200K (2022) → $600K (2023) → $1.2M (2024) → $1.8M (2025E)
+- Revenue trajectory: $247K (2022) → $502K (2023) → $1.80M (2024) → $2.49M (2025)
 - Profitable unit economics with performance-based revenue model
 - **Fully self-funded** — built entirely on revenue and founder capital. Zero outside cash invested. Valu.vc contributed venture studio services (mentorship, legal support, investor introductions) in exchange for 5% equity — no cash
 
@@ -72,7 +74,7 @@ The MENA affiliate marketing space is wide open, but the window is closing:
 
 ## 6. Capital-Efficient Founders
 
-Rima, Fahad, and Sadah built Perff AI to **$1.8M revenue with zero outside cash**:
+Rima, Fahad, and Sadah built Perff AI to **$2.49M revenue with zero outside cash**:
 
 - Built entirely on revenue and founder capital — zero outside cash raised (Valu.vc contributed studio services for 5% equity, no cash)
 - 9-person team achieving metrics that rival funded competitors
@@ -138,7 +140,7 @@ The investment thesis maps to a compelling return scenario:
 
 | Milestone | Timeline | Revenue |
 |---|---|---|
-| Current | 2025 | $1.8M |
+| Current | 2025 | $2.49M |
 | Post-investment | 2027 | $8–9M |
 | Growth phase | 2028 | $20M+ |
 | Scale | 2029 | $40M+ |
@@ -158,12 +160,12 @@ The investment thesis maps to a compelling return scenario:
 
 | Highlight | Evidence |
 |---|---|
-| Revenue-generating | $1.2M revenue (2024), $50M+ attributed sales |
+| Revenue-generating | $1.8M revenue (2024), $50M+ attributed sales |
 | Massive market gap | $1.5B SAM, 15% e-commerce growth vs 2% affiliate capture |
 | AI moat | 250+ campaigns training models, MENA-specific data |
 | PMF proven | 87% retention, 50+ enterprise clients |
 | First-mover window | 18–24 months before international entry |
-| Capital-efficient | Self-funded to $1.8M with venture studio support |
+| Capital-efficient | Self-funded to $2.49M with venture studio support |
 | Network effects | 870+ publishers, 64% organic growth |
 | Diversified | 9 verticals, no single-industry dependency |
 | Aligned incentives | Performance-based — everyone wins together |

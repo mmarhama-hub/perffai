@@ -106,8 +106,8 @@ The $8M pre-seed investment transforms Perff AI from a **revenue-generating mana
 
 | Metric | Pre-Investment (Feb 2026) | +6 Months | +12 Months | +18 Months | +24 Months |
 |---|---|---|---|---|---|
-| **Monthly Revenue** | $150K | $250K | $330K | $500K | $700K |
-| **Annual Run Rate** | $1.8M | $3.0M | $4.0M | $6.0M | $8.4M |
+| **Monthly Revenue** | $207.5K | $250K | $330K | $500K | $700K |
+| **Annual Run Rate** | $2.49M | $3.0M | $4.0M | $6.0M | $8.4M |
 | **Enterprise Brands** | 50+ | 60+ | 80+ | 100+ | 120+ |
 | **Publishers** | 870+ | 1,000+ | 1,200+ | 1,500+ | 2,000+ |
 | **Markets** | 3 (UAE, KSA, JO) | 3 | 3 | 4 (+Egypt) | 5 (+Kuwait) |

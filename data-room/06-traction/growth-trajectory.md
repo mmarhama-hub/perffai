@@ -2,6 +2,8 @@
 
 > **Confidential — As of January 2026**
 
+> **🔄 DATA-ROOM SYNC MARKER (Apr 2026):** Historical revenue baseline reconciled to accountant P&L file (2024: $1.80M, 2025: $2.49M).
+
 ---
 
 ## Revenue Growth
@@ -10,12 +12,12 @@
 
 | Year | Revenue | YoY Growth | Cumulative Revenue |
 |---|---|---|---|
-| **2022** | ~$200K | — (Year 1) | $200K |
-| **2023** | ~$600K | +200% | $800K |
-| **2024** | ~$1.2M | +100% | $2.0M |
-| **2025E** | ~$1.8M | +50% | $3.8M |
+| **2022** | ~$247K | — (Year 1) | $247K |
+| **2023** | ~$502K | +103% | $749K |
+| **2024** | ~$1.80M | +258% | $2.55M |
+| **2025** | ~$2.49M | +38.3% | $5.04M |
 
-### Revenue CAGR: 108% (2022–2025)
+### Revenue CAGR: 116% (2022–2025)
 
 ---
 
@@ -33,7 +35,7 @@ $1,000 ┤                 ████████     ████████
   $400 ┤    ████████     ████████     ████████
   $200 ┤    ████████     ████████     ████████     ████████
     $0 ┼────────────────────────────────────────────────────
-         2022         2023         2024         2025E
+         2022         2023         2024         2025
 ```
 
 ---
@@ -124,7 +126,7 @@ GMV ($M)
    $5 ┤    ████████     ████████     ██████████
    $3 ┤    ████████     ████████     ██████████     ██████
    $0 ┼────────────────────────────────────────────────────
-         2022         2023         2024         2025E
+         2022         2023         2024         2025
 ```
 
 ---
@@ -179,7 +181,7 @@ GMV ($M)
 - Cohorts **expand** over time — Year 2 revenue is typically 40% higher than Year 1
 - Early cohorts (2022) show no signs of significant churn
 - Newer cohorts start at higher revenue due to improved onboarding and larger campaigns
-- Annual totals: 2022 = $200K, 2023 = $600K ($280K + $320K), 2024 = $1.2M ($350K + $450K + $400K)
+- Annual totals reconciled to accountant baseline: 2022 = $247K, 2023 = $502K, 2024 = $1.80M, 2025 = $2.49M
 
 ---
 
@@ -187,7 +189,7 @@ GMV ($M)
 
 | Stage | Revenue | Timeline | What's Needed |
 |---|---|---|---|
-| **Current** | $1.8M | Now | — |
+| **Current** | $2.49M | Now | — |
 | **Post Seed** | $8–9M | 2027 | $8M investment |
 | **Series A** | $15–18M | 2028 | Series A ($20–30M) |
 | **Growth** | $40–50M | 2030 | Market expansion + SaaS |

@@ -2,18 +2,20 @@
 
 > **Confidential — For Authorized Investors Only**
 
+> **🔄 DATA-ROOM SYNC MARKER (Apr 2026):** Historical financials reconciled to accountant P&L baseline. Where this file conflicts with older deck assumptions, accountant values prevail.
+
 ---
 
 ## Annual Revenue Performance
 
 | Year | Revenue | YoY Growth | Cumulative | Key Driver |
 |---|---|---|---|---|
-| **2022** | ~$200K | — | $200K | Platform launch, first 8 brands |
-| **2023** | ~$600K | +200% | $800K | UAE market established, 22 brands |
-| **2024** | ~$1.2M | +100% | $2.0M | KSA expansion, 50+ brands |
-| **2025E** | ~$1.8M | +50% | $3.8M | 50+ brands, AI features beta |
+| **2022** | ~$247K | — | $247K | Platform launch, first 8 brands |
+| **2023** | ~$502K | +103% | $749K | UAE market established, 22 brands |
+| **2024** | ~$1.80M | +258% | $2.55M | KSA expansion, 50+ brands |
+| **2025** | ~$2.49M | +38.3% | $5.04M | 50+ brands, AI features beta |
 
-### Revenue CAGR (2022–2025): 108%
+### Revenue CAGR (2022–2025): 116%
 
 ---
 
@@ -94,16 +96,13 @@
 | **Tracking & Attribution** | ($12K) | 1% |
 | **Gross Profit** | **$786K** | **65.5%** |
 
-### 2025 Estimated
+### 2025 Actual (Accountant P&L Baseline)
 
 | Line | Amount | % of Revenue |
 |---|---|---|
-| **Revenue** | $1,800K | 100% |
-| **Publisher Payouts** | ($522K) | 29% |
-| **Hosting & Infrastructure** | ($36K) | 2% |
-| **Payment Processing** | ($27K) | 1.5% |
-| **Tracking & Attribution** | ($18K) | 1% |
-| **Gross Profit** | **$1,197K** | **66.5%** |
+| **Revenue** | $2,490K | 100% |
+| **COGS (total)** | ($1,700K) | 68.3% |
+| **Gross Profit** | **$790K** | **31.7%** |
 
 ---
 
@@ -139,8 +138,8 @@
 |---|---|---|
 | **Recurring / Predictable** | ⭐⭐⭐⭐ | Campaigns run continuously; 87% retention |
 | **Diversified** | ⭐⭐⭐⭐ | 50+ clients, 9 verticals, 4 markets |
-| **Growing** | ⭐⭐⭐⭐⭐ | 108% CAGR |
-| **Profitable** | ⭐⭐⭐⭐ | 66% gross margin |
+| **Growing** | ⭐⭐⭐⭐⭐ | 116% CAGR |
+| **Profitable** | ⭐⭐⭐⭐ | 24.5% net margin (2025 accountant P&L) |
 | **Aligned** | ⭐⭐⭐⭐⭐ | Performance-based = client success = our success |
 
 ---

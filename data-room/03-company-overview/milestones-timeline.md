@@ -1,5 +1,7 @@
 # Perff AI — Milestones Timeline
 
+> **🔄 DATA-ROOM SYNC MARKER (Apr 2026):** Revenue milestones reconciled to accountant baseline (2024: $1.80M, 2025: $2.49M).
+
 ---
 
 ## Key Milestones (2022–2027)
@@ -50,7 +52,7 @@
 | Q4 2024 | $50M+ total attributed sales |
 | Q4 2024 | 17.5% market share in UAE/KSA affiliate space |
 | Q4 2024 | 1.2M+ qualified leads generated |
-| Q4 2024 | Annual revenue: **~$1.2M** (+100% YoY) |
+| Q4 2024 | Annual revenue: **~$1.80M** (+258% YoY) |
 
 ---
 
@@ -64,7 +66,7 @@
 | Q2 2025 | 250+ campaigns dataset milestone |
 | Q3 2025 | 870+ publishers — largest MENA affiliate network |
 | Q3 2025 | 87% client retention rate validated |
-| Q4 2025 | Projected annual revenue: **~$1.8M** (+50% YoY) |
+| Q4 2025 | Annual revenue: **~$2.49M** (+38.3% YoY) |
 
 ---
 
@@ -100,9 +102,9 @@
 
 ## Cumulative Metrics Over Time
 
-| Metric | 2022 | 2023 | 2024 | 2025E | 2026P | 2027P |
+| Metric | 2022 | 2023 | 2024 | 2025 | 2026P | 2027P |
 |---|---|---|---|---|---|---|
-| Revenue | $200K | $600K | $1.2M | $1.8M | $3.5M | $8–9M |
+| Revenue | $247K | $502K | $1.80M | $2.49M | $3.5M | $8–9M |
 | Publishers | 120+ | 350+ | 620+ | 870+ | 1,200+ | 2,000+ |
 | Brands | 10+ | 25+ | 50+ | 60+ | 80+ | 120+ |
 | Verticals | 3 | 7 | 9 | 9 | 10+ | 12+ |

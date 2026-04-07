@@ -102,7 +102,7 @@ $30B ─── Total Addressable Market (Global Affiliate Marketing 2031)
        │
        └─ $200M ─── Serviceable Obtainable Market (UAE + KSA + Egypt, 3-Year)
             │
-            └─ $1.2M ─── Current Revenue (2024) → $8–9M (2027P)
+            └─ $2.49M ─── Current Revenue (2025) → $8–9M (2027P)
 ```
 
 ---

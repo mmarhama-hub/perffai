@@ -3,6 +3,8 @@
 > **Confidential — For Authorized Investors Only**
 > Using Customer Lifetime Value (LTV) to justify the SAFE valuation cap / pre-money valuation.
 
+> **🔄 DATA-ROOM SYNC MARKER (Apr 2026):** Revenue and corporate-margin references reconciled to accountant P&L baseline (2025 revenue: $2.49M; 2025 gross margin: 31.7%).
+
 ---
 
 ## Executive Summary
@@ -63,7 +65,7 @@ This method is especially powerful for companies like Perff AI that have **stron
 
 | Metric | Value | Source |
 |---|---|---|
-| 2025E Revenue | $1.8M | [revenue-history.md](../07-financials/revenue-history.md) |
+| 2025 Revenue | $2.49M | [revenue-history.md](../07-financials/revenue-history.md) |
 | Revenue CAGR (2022–2025) | 108% | [revenue-history.md](../07-financials/revenue-history.md) |
 | Client Retention Rate | 87% | [key-metrics.md](../06-traction/key-metrics.md) |
 | Publisher Retention Rate | 88% | [key-metrics.md](../06-traction/key-metrics.md) |
@@ -76,7 +78,7 @@ This method is especially powerful for companies like Perff AI that have **stron
 |---|---|---|---|
 | Enterprise brands | 50+ | 150+ | [milestones-post-investment.md](milestones-post-investment.md) |
 | Publishers | 870+ | 2,000+ | [milestones-post-investment.md](milestones-post-investment.md) |
-| Revenue | $1.8M | $8–9M ARR | [financial-projections.md](../07-financials/financial-projections.md) |
+| Revenue | $2.49M | $8–9M ARR | [financial-projections.md](../07-financials/financial-projections.md) |
 | Gross margin | 66.5% | 70% | [financial-projections.md](../07-financials/financial-projections.md) |
 
 ---
@@ -182,7 +184,7 @@ This method values the revenue stream based on how efficiently it was acquired a
 |---|---|---|
 | Current ARR | | $1,800,000 |
 | LTV/CAC Ratio | | 8× |
-| ARR × LTV/CAC | $1.8M × 8 | $14,400,000 |
+| ARR × LTV/CAC | $2.49M × 8 | $19,920,000 |
 | Growth premium (108% CAGR) | × 2.5 | |
 | **Implied Valuation** | $14.4M × 2.5 | **$36,000,000** |
 
@@ -345,8 +347,8 @@ Real cohort data validates the LTV assumptions:
 **Q: Why use LTV to justify valuation instead of revenue multiples?**
 **A:** Because revenue multiples alone undervalue companies with exceptional unit economics. Our 8× LTV/CAC and 5.3-month payback mean every dollar invested in growth returns $8 — that efficiency should be priced in.
 
-**Q: How do you justify a $40M cap with only $1.8M revenue?**
-**A:** The $1.8M is the current flow. The LTV of our existing 50 brands alone is $3.35M in gross profit. Add the proven ability to acquire 100+ more brands at 8× LTV/CAC, and the total economic value exceeds $10M — supporting a $35M–$40M cap at standard multiples.
+**Q: How do you justify a $40M cap with only $2.49M revenue?**
+**A:** The $2.49M is current trailing flow (accountant baseline). The LTV of our existing 50 brands alone is $3.35M in gross profit. Add the proven ability to acquire 100+ more brands at 8× LTV/CAC, and the total economic value exceeds $10M — supporting a $35M–$40M cap at standard multiples.
 
 **Q: What if your LTV assumptions are wrong?**
 **A:** Even at a 50% haircut on LTV ($33.5K instead of $67K), the LTV/CAC ratio is still 4× (above the 3× healthy threshold), payback is still under 12 months, and the implied valuation is still above $20M.

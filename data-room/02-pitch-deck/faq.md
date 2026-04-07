@@ -2,6 +2,8 @@
 
 *Concise answers for investor pitch interviews. Data-room-sourced (Feb 2026).*
 
+**🔄 DATA-ROOM SYNC MARKER (Apr 2026):** Core revenue references in this FAQ were reconciled to accountant P&L baseline (2024: $1.80M, 2025: $2.49M).
+
 ---
 
 ## 🔥 Top Investor Questions
@@ -15,10 +17,10 @@
   *Sources: [Research and Markets - Global affiliate market growing 17.1% CAGR to $48.92B by 2032](https://www.researchandmarkets.com/reports/6014901/affiliate-marketing-platform-market-global), Crunchbase (Impact.com valuation data)*
 
 - **Q: Why you? Why this team?**
-  **A:** Rima Hani built MENA affiliate from scratch (10+ yrs, built this to $1.8M with zero funding). Fahad Alsaedi is a technical co-founder with a prior exit (ex-Nana). Sadah Chanti has 17+ years in digital marketing. The three cover product, tech, and commercial — and have worked together 3+ years.
+  **A:** Rima Hani built MENA affiliate from scratch (10+ yrs, built this to $2.49M with zero funding). Fahad Alsaedi is a technical co-founder with a prior exit (ex-Nana). Sadah Chanti has 17+ years in digital marketing. The three cover product, tech, and commercial — and have worked together 3+ years.
 
 - **Q: Why should I invest now, not later?**
-  **A:** We've self-funded to $1.8M revenue, 50+ brands, 870+ publishers — all with zero external capital. This round fuels the platform shift (managed → self-serve SaaS). Early investors get in at pre-seed pricing on what's effectively seed/Series A traction.
+  **A:** We've self-funded to $2.49M revenue, 50+ brands, 870+ publishers — all with zero external capital. This round fuels the platform shift (managed → self-serve SaaS). Early investors get in at pre-seed pricing on what's effectively seed/Series A traction.
 
 - **Q: What keeps you up at night?**
   **A:** (1) A global player like Impact or CJ making a serious MENA push. (2) Talent scarcity for senior AI/ML engineers in the region. (3) Regulatory changes in KSA or UAE.
@@ -27,7 +29,7 @@
   **A:** ~$120K/month ($1.44M/year). Team is 9 people across Abu Dhabi, Amman, Riyadh, Gaza — very capital-efficient.
 
 - **Q: What if you run out of money?**
-  **A:** This round gives 28–36 months runway. Even without it, the business is near-breakeven ($1.8M revenue vs. $1.44M costs). We can throttle growth and survive on revenue alone.
+  **A:** This round gives 28–36 months runway. Even without it, the business is materially de-risked by positive accountant net profit in 2025 and can throttle growth to preserve cash.
 
 - **Q: What's the path to profitability?**
   **A:** Near-breakeven today. Post-raise, we invest heavily to scale (burn increases to ~$395K/mo by Q4 2026). Target near-breakeven again at $8–9M ARR by end of 2027.
@@ -162,13 +164,13 @@
 ## Financials
 
 - **Q: Revenue history?**
-  **A:** $200K (2022) → $600K (2023) → $1.2M (2024) → $1.8M (2025E). CAGR: 108%.
+  **A:** $247K (2022) → $502K (2023) → $1.80M (2024) → $2.49M (2025). CAGR: 116%.
 
 - **Q: Revenue projections?**
   **A:** $3.5M (2026), $8M (2027), $15M (2028), $25M (2029), $40M (2030).
 
 - **Q: MRR right now?**
-  **A:** ~$150K/mo (Jan 2026). Peak was $180K (Nov 2025, Black Friday).
+  **A:** ~$207.5K/mo (2025 run-rate from accountant P&L). Peak monthly campaign periods can exceed this baseline.
 
 - **Q: Gross margin?**
   **A:** ~66–70%.
@@ -185,13 +187,13 @@
   **A:** $8M pre-seed (first external capital ever).
 
 - **Q: Why $8M for a pre-seed?**
-  **A:** This is pre-seed pricing on seed+ traction. $1.8M revenue, 50+ brands, 87% retention. The $8M accelerates the managed → self-serve platform transition.
+  **A:** This is pre-seed pricing on seed+ traction. $2.49M revenue, 50+ brands, 87% retention. The $8M accelerates the managed → self-serve platform transition.
 
 - **Q: Use of funds?**
   **A:** 40% AI & product development, 35% regional expansion (KSA, Egypt), 25% marketing & growth.
 
 - **Q: Valuation?**
-  **A:** $32–40M pre-money (indicative). Comparable to 18–22× revenue, justified by 108% CAGR, MENA monopoly potential, and AI-native platform.
+  **A:** $35–40M pre-money (indicative). Comparable to ~14–16× trailing revenue, justified by 116% CAGR, MENA monopoly potential, and AI-native platform.
 
 - **Q: Runway?**
   **A:** 28–36 months at planned burn.
@@ -309,9 +311,9 @@ Investors often value companies at **3–5× the total LTV of the addressable cu
 
 | Metric | Calculation | Value |
 |---|---|---|
-| Current ARR | $1.8M | |
+| Current ARR | $2.49M | |
 | LTV/CAC ratio | 8× | |
-| ARR × LTV/CAC | $1.8M × 8 | **$14.4M** |
+| ARR × LTV/CAC | $2.49M × 8 | **$19.92M** |
 | Apply 2.5× growth premium | $14.4M × 2.5 | **$36.0M** |
 
 **Method C: Forward Revenue × Gross Margin Multiple**
@@ -359,7 +361,7 @@ For a SAFE instrument with a valuation cap:
 
 ### Cap-Based LTV — Investor FAQ
 
-- **Q: How do you justify a $40M cap with $1.8M revenue?**
+- **Q: How do you justify a $40M cap with $2.49M revenue?**
   **A:** Because our unit economics are proven: 8× LTV/CAC, 5.3-month payback, 120% NRR. The cap reflects the total economic value we can extract from customers, not just trailing revenue.
 
 - **Q: What if LTV assumptions are wrong?**
@@ -384,7 +386,7 @@ For a SAFE instrument with a valuation cap:
 | Question | Answer |
 |---|---|
 | Paying customers? | 50+ enterprise brands |
-| Revenue? | $1.8M (2025) |
+| Revenue? | $2.49M (2025) |
 | Profitable? | Near-breakeven |
 | Burn rate? | $120K/mo |
 | Runway without raise? | Can survive on revenue |

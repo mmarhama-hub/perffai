@@ -36,17 +36,17 @@
 
 ## Proposed Post-Investment Cap Table
 
-### Scenario A: $8M at $32M Pre-Money Valuation
+### Scenario A: $8M at $35M Pre-Money Valuation
 
-| Shareholder | Ownership % | Value (at $40M post) | Notes |
+| Shareholder | Ownership % | Value (at $43M post) | Notes |
 |---|---|---|---|
-| **Rima Hani** | 65.3% | $26.1M | Diluted from 87.0% |
-| **Fahad Alsaedi** | 4.5% | $1.8M | Diluted from 6.0% |
+| **Rima Hani** | 65.3% | $28.1M | Diluted from 87.0% |
+| **Fahad Alsaedi** | 4.5% | $1.9M | Diluted from 6.0% |
 | **Sadah Chanti** | 1.5% | $0.6M | Diluted from 2.0% |
-| **Valu.vc / Mustafa Hasan** | 3.8% | $1.5M | Diluted from 5.0% |
+| **Valu.vc / Mustafa Hasan** | 3.8% | $1.6M | Diluted from 5.0% |
 | **Pre-Seed Investors** | 20.0% | $8.0M | $8M invested |
-| **ESOP Pool** | 5.0% | $2.0M | Reserved for key hires |
-| **Total** | **100.0%** | **$40.0M** | |
+| **ESOP Pool** | 5.0% | $2.2M | Reserved for key hires |
+| **Total** | **100.0%** | **$43.0M** | |
 
 ### Scenario B: $8M at $40M Pre-Money Valuation
 

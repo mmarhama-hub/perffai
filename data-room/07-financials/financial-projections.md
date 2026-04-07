@@ -2,20 +2,22 @@
 
 > **Confidential — For Authorized Investors Only**
 
+> **🔄 DATA-ROOM SYNC MARKER (Apr 2026):** 2025 baseline reconciled to accountant P&L (Revenue $2.49M, Gross Profit $0.79M, Gross Margin 31.7%). Forward years remain management projections.
+
 ---
 
 ## Projection Summary
 
 | Year | Revenue | YoY Growth | Gross Profit | EBITDA | EBITDA Margin |
 |---|---|---|---|---|---|
-| **2025E** | $1.8M | +50% | $1.2M | ($0.1M) | -6% |
-| **2026P** | $3.5M | +94% | $2.4M | ($1.8M) | -51% |
+| **2025A** | $2.49M | +38.3% | $0.79M | $0.61M (net profit basis) | 24.5% (net margin) |
+| **2026P** | $3.34M | +34% | $1.29M | $0.94M (net profit basis) | 28.2% (net margin) |
 | **2027P** | $8.0M | +129% | $5.6M | ($0.5M) | -6% |
 | **2028P** | $15.0M | +88% | $10.8M | $1.5M | 10% |
 | **2029P** | $25.0M | +67% | $18.5M | $5.0M | 20% |
 | **2030P** | $40.0M | +60% | $30.0M | $10.0M | 25% |
 
-*E = Estimated, P = Projected*
+*A = Accountant baseline actual, P = Projected*
 
 ---
 

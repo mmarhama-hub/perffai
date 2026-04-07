@@ -2,6 +2,8 @@
 
 > **Confidential — For Authorized Investors Only**
 
+> **🔄 DATA-ROOM SYNC MARKER (Apr 2026):** Founder traction references reconciled to accountant revenue baseline ($2.49M in 2025).
+
 ---
 
 ## Rima Hani — Co-Founder & CEO
@@ -22,7 +24,7 @@ Rima Hani brings **10+ years of hands-on experience** in performance and affilia
 
 | Period | Company | Role | Key Achievements |
 |---|---|---|---|
-| **2022–Present** | **Perff AI** (Perff Inc.) | Co-Founder & CEO | Built from $0 to $1.8M revenue, 50+ enterprise clients, 870+ publishers |
+| **2022–Present** | **Perff AI** (Perff Inc.) | Co-Founder & CEO | Built from $0 to $2.49M revenue, 50+ enterprise clients, 870+ publishers |
 | **2019–2022** | **Equiti Group** | Head of Affiliate Marketing | Built affiliate program for leading MENA forex/trading platform |
 | **2017–2019** | **DigiZag** | Performance Marketing Director | Led performance campaigns across MENA for multiple verticals |
 | **2015–2017** | **Digital Advantage** | Senior Affiliate Manager | Managed enterprise affiliate partnerships in UAE & KSA |
@@ -38,7 +40,7 @@ Rima Hani brings **10+ years of hands-on experience** in performance and affilia
 ### Why Rima Is the Right CEO
 1. **Market insider** — 10+ years of MENA performance marketing gives irreplaceable market knowledge
 2. **Relationship-driven growth** — 87% client retention comes from trust Rima and team have built
-3. **Revenue-first mindset** — Built $1.8M business with minimal VC funding
+3. **Revenue-first mindset** — Built $2.49M business with minimal VC funding
 4. **Network of networks** — Connected to both brand decision-makers and publisher ecosystems
 5. **Regional DNA** — Understands cultural nuances that international competitors miss
 
@@ -145,13 +147,13 @@ Holding a **Bachelor's degree in Management Information Systems** (UAE Universit
 | **Geography** | UAE-based, MENA-wide | KSA-based | KSA-based | Two biggest markets covered |
 | **Language** | Arabic, English | Arabic, English | Arabic, English | Full regional communication |
 | **Style** | Relationship-driven, commercial | Technical, product-focused | Strategic, data-driven, AI-forward | Balanced leadership |
-| **Experience** | Built $1.8M business organically | 1× exit, scaled at Nana | 17+ yrs Accounts Director, 20+ person teams | Revenue + Startup + Marketing DNA |
+| **Experience** | Built $2.49M business organically | 1× exit, scaled at Nana | 17+ yrs Accounts Director, 20+ person teams | Revenue + Startup + Marketing DNA |
 
 ---
 
 ## What Investors Should Know About This Team
 
-1. **Revenue-proven** — This founding team built a $1.8M business with minimal outside capital
+1. **Revenue-proven** — This founding team built a $2.49M business with minimal outside capital
 2. **Market-proven** — 50+ enterprise brands trust them with performance budgets
 3. **Complementary skills** — CEO/CTO/COO trio with actual domain expertise
 4. **MENA insiders** — Not outsiders attempting to enter the region; they ARE the region

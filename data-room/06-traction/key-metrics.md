@@ -2,6 +2,8 @@
 
 > **As of January 2026 — Confidential**
 
+> **🔄 DATA-ROOM SYNC MARKER (Apr 2026):** Revenue metrics reconciled to accountant P&L baseline (2024: $1.80M, 2025: $2.49M).
+
 ---
 
 ## Performance Dashboard
@@ -34,12 +36,12 @@
 
 | Metric | Value | Context |
 |---|---|---|
-| **2024 Revenue** | ~$1.2M | +100% YoY |
-| **2025E Revenue** | ~$1.8M | +50% YoY (projected) |
+| **2024 Revenue** | ~$1.80M | +258% YoY |
+| **2025 Revenue** | ~$2.49M | +38.3% YoY |
 | **Avg Revenue Per Client** | ~$24K/year | Growing as clients expand |
 | **Revenue Per Publisher** | ~$2,070/year | Increasing with better tools |
-| **MRR (latest)** | ~$150K | As of Jan 2026 |
-| **Revenue Run Rate** | ~$1.8M | Based on current monthly performance |
+| **MRR (latest)** | ~$207.5K | 2025 monthly run-rate basis |
+| **Revenue Run Rate** | ~$2.49M | Based on accountant 2025 annualized performance |
 
 ---
 
@@ -86,10 +88,10 @@
 
 | Period | Revenue | Publishers | Brands | Milestone |
 |---|---|---|---|---|
-| **2022** | ~$200K | 120 | 8 | Platform launch |
-| **2023** | ~$600K | 350 | 22 | UAE market established |
-| **2024** | ~$1.2M | 620 | 50 | KSA expansion |
-| **2025E** | ~$1.8M | 870+ | 50+ | AI features beta |
+| **2022** | ~$247K | 120 | 8 | Platform launch |
+| **2023** | ~$502K | 350 | 22 | UAE market established |
+| **2024** | ~$1.80M | 620 | 50 | KSA expansion |
+| **2025** | ~$2.49M | 870+ | 50+ | AI features beta |
 | **2026P** | ~$3.5M | 1,200+ | 80+ | AI platform GA + Egypt |
 | **2027P** | ~$8M | 2,000+ | 150+ | Full AI stack + scale |
 
@@ -103,7 +105,7 @@
 | **Gross Margin** | 66–70% | Healthy marketplace margin |
 | **Operating Burn** | ~$80K/month | Gross OpEx; net of revenue: ~$30K/month |
 | **Months of Runway (current)** | 6 months | Pre-raise; revenue-funded |
-| **Revenue CAGR (2022–2025)** | 108% | Strong compound growth |
+| **Revenue CAGR (2022–2025)** | 116% | Strong compound growth |
 
 ---
 
