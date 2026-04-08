@@ -5,6 +5,57 @@
 
 ---
 
+## Short Version (1-Page Summary)
+
+### Snapshot
+
+Perff AI has strong fundamentals (traction + retention + network moat) and a clear growth path, but must execute quickly before major global competitors scale into MENA.
+
+### Strengths
+
+- **Traction:** $2.49M revenue (2025), 116% CAGR (2022–2025), 87% retention
+- **Defensible supply moat:** 870+ verified publishers, 450+ active, 64% organic growth
+- **Product edge:** AI matching + MENA-specific fraud detection + Arabic-first platform
+- **Founder-market fit:** deep regional relationships and execution history
+- **Proof of outcomes:** major performance gains across flagship client accounts
+
+### Weaknesses
+
+- Revenue concentration in UAE/KSA
+- Managed-service heavy model; self-serve still maturing
+- Small team relative to roadmap complexity
+- High founder dependency
+- Multi-jurisdiction compliance overhead (UAE/KSA/Egypt)
+
+### Opportunities
+
+- **Egypt expansion:** large, fast-growing market with low affiliate maturity
+- **Self-serve SaaS:** unlock long-tail SMEs and improve scalability/margins
+- **Partnerships:** Shopify/Salla/Zid + agency channels
+- **Category leadership:** thought leadership, events, market reports
+- **Data products:** fraud intelligence, benchmarks, API services
+
+### Threats
+
+- Global platform entry (especially Impact.com) within 12–18 months
+- Price competition and margin pressure
+- Macro-driven brand budget cuts
+- Regulatory changes in privacy/payments/affiliate rules
+- Execution delays in hiring, product roadmap, and market expansion
+
+### Strategic Priorities (Next 12–18 Months)
+
+1. Deepen network and data moats
+2. Deliver self-serve product roadmap on time
+3. Diversify revenue by market and product mix
+4. Build management depth and execution discipline
+
+### Bottom Line
+
+Perff AI has a real path to category leadership in MENA. The outcome depends on speed and execution before global competitors localize.
+
+---
+
 ## Table of Contents
 
 1. [Executive Summary](#executive-summary)
