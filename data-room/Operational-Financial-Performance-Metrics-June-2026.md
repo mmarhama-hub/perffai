@@ -8,7 +8,7 @@
 - **Brand concentration:** top 3 brands (StarzPlay, DAMAC, Evest) = ~81% of all-time revenue.
 - **Publisher concentration:** "Global Network" (related party) = ~69% of all-time revenue.
 - **Data inconsistency:** the workbook H1/H2 2025 period summary does not reconcile with the continuous monthly series — confirm against the accountant P&L.
-- **Not in this dataset (still required):** operating expense, net burn, cash on hand, fundraise round-close status.
+- **Not in this dataset (still required):** operating expense, net burn, cash on hand.
 
 ## 1. Headline (All-Time)
 
@@ -97,14 +97,14 @@
 | Dilution | ~9–10% |
 | ESOP | 5% → 10–15% |
 | Target close | Q3 2026 |
-| Round-close status | 🔴 NEEDS INPUT |
+| Round-close status | 🟡 Still fundraising — round open, not yet closed |
 
 ## 7. Data Gaps — required to finalize
 
 - [ ] Operating expense (opex) — monthly & June 2026 actual
 - [ ] Net burn rate (2026)
 - [ ] Cash on hand (as of June 2026)
-- [ ] Fundraise round-close status (committed / closed)
+- [x] Fundraise round-close status — still fundraising (round open, not yet closed)
 - [ ] Reconcile H1/H2 2025 period summary vs continuous monthly series
 - [ ] Confirm / explain the H1 2026 revenue decline & forward pipeline
 
