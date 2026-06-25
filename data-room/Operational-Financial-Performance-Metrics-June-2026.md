@@ -1,132 +1,84 @@
 # Operational & Financial Performance Metrics — June 2026
 
-> Prepared for the investor request. All figures reconciled to the Perff AI data room (June 2026 reconciliation). Cells marked **🔴 NEEDS INPUT** require management's actuals and are intentionally not estimated.
+> Reconciled to **Perff_AI_Investor_KPI_CLEAN.xlsx** (prepared 17 Jun 2026). This replaces earlier estimated versions. Per the source methodology, click / CVR / RPC metrics are intentionally excluded (coupon & CPL channels have no reliable click denominator).
 
-## 1. Executive Snapshot
+## ⚠️ Key flags — review before any investor send
 
-| Metric | Value | Period |
-| --- | --- | --- |
-| Revenue (gross billings) | $2.50M | FY2025 |
-| Net take / gross profit | ~30% (~$0.79M) | FY2025 |
-| Revenue CAGR | ~116% | 2022–2025 |
-| Active enterprise brands | 64 (81 onboarded) | Jun 2026 |
-| Registered publishers | 870+ (213 active) | Jun 2026 |
-| Lifetime conversions | 360,368 | All-time |
-| Lifetime clicks | ~20.6M | All-time |
-| Fraud detection rate | 95.3% | Current |
-| Attribution accuracy | 97.5% | Current |
-| Team (full-time) | 9 | Jun 2026 |
-| Revenue / employee | ~$278K | FY2025 |
+- **2026 revenue is declining sharply:** $62K (Jan) → $13K (Jun). H1 2026 = $226,000 vs FY2025 $2,495,359.
+- **Brand concentration:** top 3 brands (StarzPlay, DAMAC, Evest) = ~81% of all-time revenue.
+- **Publisher concentration:** "Global Network" (related party) = ~69% of all-time revenue.
+- **Data inconsistency:** the workbook H1/H2 2025 period summary does not reconcile with the continuous monthly series — confirm against the accountant P&L.
+- **Not in this dataset (still required):** operating expense, net burn, cash on hand, fundraise round-close status.
 
-## 2. Financial Performance
-
-### 2.1 Annual Revenue
-
-| Year | Revenue | YoY | Note |
-| --- | --- | --- | --- |
-| 2022 | $247K | — | Gross billings |
-| 2023 | $502K | +103% | |
-| 2024 | $1.82M | +263% | |
-| 2025 | $2.50M | +37% | Gross billings |
-| 2026 (P) | $3.5M | +40% | Projection |
-
-### 2.2 Net Take & Gross Profit (FY2025)
-
-| Line | Value |
-| --- | --- |
-| Gross billings | $2.50M |
-| Publisher payouts (~70%) | ~$1.71M |
-| Net take (gross profit) | ~$0.79M (~30%) |
-| Net take range (2023–2025) | 28.7%–31.7% |
-| Publisher payouts (all-time) | ~$3.7M |
-
-### 2.3 Monthly Revenue Run-Rate
-
-| Month | MRR | Note |
-| --- | --- | --- |
-| 2025 average | ~$208K | |
-| Nov 2025 (peak) | ~$250K | |
-| Dec 2025 | ~$225K | |
-| Jan 2026 | ~$165K | |
-| Feb 2026 | 🔴 NEEDS INPUT | |
-| Mar 2026 | 🔴 NEEDS INPUT | |
-| Apr 2026 | 🔴 NEEDS INPUT | |
-| May 2026 | 🔴 NEEDS INPUT | |
-| Jun 2026 | 🔴 NEEDS INPUT | |
-
-> ⚠️ **Trend to confirm:** the figures above show a steady 2025 run-rate, but the diligence review flagged a possible H2 2025 decline. Please confirm the real 2025 monthly trend against the accountant's P&L before this goes to the investor.
-
-### 2.4 Cost Structure & Burn
-
-| Line | Value |
-| --- | --- |
-| Opex ex-payouts (2025) | ~$66K / month |
-| 2026 (P) net burn | ~$80K / month |
-| June 2026 opex (actual) | 🔴 NEEDS INPUT |
-
-### 2.5 Cash & Runway
-
-| Line | Value |
-| --- | --- |
-| Cash on hand (Jun 2026) | 🔴 NEEDS INPUT |
-| Modeled post-raise runway | ~22 months (on $4M raise) |
-
-## 3. Unit Economics
-
-| Metric | Value | Note |
-| --- | --- | --- |
-| LTV | ~$30K | Per brand |
-| CAC | ~$8.5K | Per brand |
-| LTV / CAC | ~3.6× | |
-| Payback period | ~14 months | |
-| Net revenue retention | ~120% | Est. |
-| Gross retention | ~87% | Est. |
-| Conversion rate (all-time) | ~1.75% | |
-| Revenue per conversion | $14.89 / $10.37 / $4.52 | 2023 / 2024 / 2025 |
-
-## 4. Operational Metrics
-
-### 4.1 Clients
+## 1. Headline (All-Time)
 
 | Metric | Value |
 | --- | --- |
-| Active enterprise brands | 64 |
-| Total brands onboarded | 81 |
-
-**Concentration:** revenue is concentrated — StarzPlay ~half of billings; accounts associated with the Global Network relationship (a related party) ~two-thirds combined. See the Legal section for the related-party disclosure.
-
-### 4.2 Publishers
-
-| Metric | Value |
-| --- | --- |
-| Registered publishers | 870+ |
-| Active publishers | 213 |
-| Monthly active publishers | ~210 |
-
-### 4.3 Campaigns
-
-| Metric | Value |
-| --- | --- |
+| Total revenue | $5,366,061 |
+| Conversions | 360,368 |
+| Publisher payouts | $3,737,810 (69.7% of revenue) |
+| Gross profit | $1,628,251 (30.3% margin) |
+| Revenue per conversion | $14.89 |
+| Peak year (FY2025) | $2,495,359 (+37.2% YoY) |
+| Active brands | 64 (81 onboarded) |
 | Active campaigns | 186 |
-| Campaigns run (all-time) | 250+ |
+| Team (full-time) | 9 |
 
-### 4.4 Quality & Trust
-
-| Metric | Value |
-| --- | --- |
-| Fraud detection rate | 95.3% |
-| Attribution accuracy | 97.5% |
-
-### 4.5 Team
+### Latest month — June 2026
 
 | Metric | Value |
 | --- | --- |
-| Full-time team | 9 |
-| Hiring plan | 9 → 18 (2026) → 24 (2027) |
+| Revenue | $13,000 |
+| Gross profit | $4,395 |
+| Conversions | 3,519 |
+| Active publishers | 60 |
+| H1 2026 revenue (Jan–Jun) | $226,000 |
 
-## 5. Financial Projections
+## 2. Annual Revenue & Profitability (actuals)
 
-| Year | Revenue | EBITDA | Net take |
+| Year | Revenue | Conversions | Payouts | Gross profit | Margin | Note |
+| --- | --- | --- | --- | --- | --- | --- |
+| 2021 | $2,087 | 433 | $1,521 | $565 | 27.1% | Partial (3 months) |
+| 2022 | $303,918 | 65,176 | $197,702 | $106,217 | 34.9% |  |
+| 2023 | $520,302 | 110,931 | $367,802 | $152,500 | 29.3% |  |
+| 2024 | $1,818,394 | 69,980 | $1,283,400 | $534,994 | 29.4% |  |
+| 2025 | $2,495,359 | 66,990 | $1,737,714 | $757,645 | 30.4% | Peak year |
+| 2026 (H1) | $226,000 | 46,858 | $149,671 | $76,329 | 33.8% | H1 only |
+
+## 3. Monthly Trend — continuous series (Jan 2025 – Jun 2026)
+
+| Month | Revenue | Gross profit | Conversions | Active publishers |
+| --- | --- | --- | --- | --- |
+| Jan 2025 | $210,790 | $62,996 | 7,626 | 188 |
+| Feb 2025 | $208,824 | $64,154 | 7,146 | 203 |
+| Mar 2025 | $216,255 | $67,256 | 8,608 | 216 |
+| Apr 2025 | $208,539 | $64,901 | 6,056 | 196 |
+| May 2025 | $207,567 | $63,206 | 5,849 | 209 |
+| Jun 2025 | $203,075 | $61,108 | 5,781 | 217 |
+| Jul 2025 | $203,166 | $60,663 | 4,886 | 216 |
+| Aug 2025 | $211,096 | $62,844 | 6,196 | 210 |
+| Sep 2025 | $210,327 | $63,944 | 4,815 | 209 |
+| Oct 2025 | $209,448 | $63,092 | 3,888 | 209 |
+| Nov 2025 | $204,697 | $62,141 | 3,239 | 191 |
+| Dec 2025 | $201,575 | $61,341 | 2,900 | 172 |
+| Jan 2026 | $62,000 | $21,582 | 9,219 | 165 |
+| Feb 2026 | $56,000 | $19,690 | 10,799 | 162 |
+| Mar 2026 | $45,000 | $14,586 | 10,398 | 154 |
+| Apr 2026 | $28,000 | $8,951 | 5,766 | 121 |
+| May 2026 | $22,000 | $7,125 | 7,157 | 123 |
+| Jun 2026 | $13,000 | $4,395 | 3,519 | 60 |
+
+## 4. Concentration
+
+**Top brands (all-time revenue):** StarzPlay ~49.8%, DAMAC ~16.2%, Evest ~15.2% — top 3 = ~81%.
+
+**Top publisher:** Global Network (related party) ~69% of all-time revenue. Active publishers peaked at 217 (Jun 2025) and fell to 60 (Jun 2026).
+
+## 5. Management Projections — under review
+
+> Flag: H1 2026 actual revenue is $226,000 against a $3.5M FY2026 projection. The projections below diverge sharply from current actuals.
+
+| Year | Revenue (proj) | EBITDA (proj) | Net take |
 | --- | --- | --- | --- |
 | 2026 (P) | $3.5M | -$1.0M | ~31% |
 | 2027 (P) | $5.5M | -$0.3M | ~32% |
@@ -134,7 +86,7 @@
 | 2029 (P) | $15M | +$2.0M | ~34% |
 | 2030 (P) | $25M | +$4.5M | ~35% |
 
-## 6. Fundraise Status
+## 6. Fundraise Status (from data room)
 
 | Item | Value |
 | --- | --- |
@@ -147,14 +99,15 @@
 | Target close | Q3 2026 |
 | Round-close status | 🔴 NEEDS INPUT |
 
-## 7. Data Gaps — Required to Finalize
+## 7. Data Gaps — required to finalize
 
-- [ ] Feb–Jun 2026 monthly revenue actuals
-- [ ] June 2026 opex (actual)
-- [ ] Current cash on hand (as of June 2026)
-- [ ] Round-close status (committed / closed amount)
-- [ ] Confirm 2025 monthly trend (steady vs H2 decline) against accountant's P&L
+- [ ] Operating expense (opex) — monthly & June 2026 actual
+- [ ] Net burn rate (2026)
+- [ ] Cash on hand (as of June 2026)
+- [ ] Fundraise round-close status (committed / closed)
+- [ ] Reconcile H1/H2 2025 period summary vs continuous monthly series
+- [ ] Confirm / explain the H1 2026 revenue decline & forward pipeline
 
 ---
 
-_Reconciled to the Perff AI data room (June 2026). Figures are management estimates and not independently audited._
+_Source: Perff AI investor KPI export (conversion-based; clicks/CVR/RPC excluded by methodology). Figures are management data, not independently audited._
